@@ -3,9 +3,13 @@
     <title>Meilleure Wild de France !</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script src="src/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"/>
   </head>
   <body>
+
+  	<!--> Carousel <-->
+
   	<div id="slider" class="carousel slide" data-ride="carousel">
   		<ol class="carousel-indicators">
   			<li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -31,6 +35,18 @@
 					<h3>C'est à Lille que les gens sont les plus cools</h3>
 				</div>
 			</div>
+		</div>
+
+		<!--> Carousel controls <-->
+
+		<a class="left carousel-control" href="#slider" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#slider" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
   </body>
   <script src="src/js/jquery-3.3.1.js"></script>
 </html>
