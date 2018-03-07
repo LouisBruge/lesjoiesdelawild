@@ -12,7 +12,7 @@
  *
  *  ** FIVES_RULES Sections properties **
  *  * h1 tag properties
- *  
+ *  * img tag properties 
  */
 
 /**
@@ -70,4 +70,10 @@ p {
     .fives_rules h1.text-center.blue.bold {
         font-size: 5em;
     }
+}
+
+/* Set the padding and margins auto to img inside the .fives_rules section */
+.fives_rules img.img-responsive {
+    padding: 2vmin;
+    margin: auto;
 }
