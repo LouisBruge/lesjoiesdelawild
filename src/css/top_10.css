@@ -5,9 +5,15 @@
 /*
  * Structure of the CSS file
  *
- *  * Fonts
+ *  ** FONTS **
+ *  * Fonts family
  *  * Fonts color
  */
+
+/* Font family for the body and the titles */
+body {
+    font-family: 'Montserrat';
+}
 
 /* Set font's color to blue for the titles and the links */
 .blue {

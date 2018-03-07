@@ -10,6 +10,8 @@
         <!-- Links to the top_10.css file -->
         <link rel="stylesheet" media="all" type="text/css" href="../css/top_10.css">
 
+        <!-- Link to the google fonts Montserrat -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
     <body>
 
