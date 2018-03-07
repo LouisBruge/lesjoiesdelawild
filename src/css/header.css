@@ -1,7 +1,8 @@
 /* Navbar */
-.navbar navbar-default {
+header nav.navbar.navbar-default {
 	background-color: #F5F5F5;
 	color: #35383a;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
