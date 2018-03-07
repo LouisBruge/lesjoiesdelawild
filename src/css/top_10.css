@@ -11,6 +11,7 @@
  *  * Fonts weight
  *
  *  ** .FIVES_RULES Sections properties **
+ *  * background color
  *  * h1 tag properties
  *  * img tag properties 
  *
@@ -46,6 +47,11 @@ p {
 /**
  *  .FIVES_RULES Sections properties
  **/
+
+/* Set .fives_rules background-color */
+.fives_rules {
+    background-color: #F5F5F5;
+}
 
 /* Set the attribues font-size of the h1 tag */
 .fives_rules h1.text-center.blue.bold {
