@@ -62,6 +62,33 @@
             </div>
         </div>
       </section>
+    
+    <!-- Corpus -->
+    <section>
+        <div class="container-fluid">
+            
+            <!-- First row -->
+            <div class="row"> 
+
+                <!-- Picture associate to the paragraph -->
+                <div class="col-sm-offset-1 col-sm-4 hidden-xs">
+                    <img src="http://via.placeholder.com/700x300" alt="placeholder" class="img-responsive center-block">
+                </div>
+
+                <!--Separator -->
+                <div class="col-sm-2 hidden-xs">
+                    <img src="http://via.placeholder.com/100x100" alt="placeholder" class="img-responsive center-block img-circle">
+                </div>
+
+                <!-- paragraph -->
+                <div class="col-sm-4 col-xs-12">
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
       <!-- Footer include with PHP -->
       <?php include('../src/html/footer.php'); ?>
