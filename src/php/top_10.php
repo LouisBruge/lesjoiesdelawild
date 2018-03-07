@@ -9,6 +9,9 @@
     </head>
     <body>
 
+    <!-- PHP navabar include -->
+    <?php include('../html/header.php');?>
+
     <!-- Fifth Order section -->
         <section id="First_order">
             <div class="container-fluid">
@@ -148,6 +151,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- PHP include for the footer -->
+        <?php include('../html/footer.php'); ?>
     </body>
     
     <!-- JQuery library v. 3.3.1 -->
