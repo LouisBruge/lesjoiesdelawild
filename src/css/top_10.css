@@ -6,8 +6,8 @@
  * Structure of the CSS file
  *
  *  ** FONTS **
- *  * Fonts family
- *  * Fonts color
+ *  * Fonts family (l. 13 - 16)
+ *  * Fonts color (l. 18 - 21)
  */
 
 /* Font family for the body and the titles */
@@ -20,4 +20,8 @@ body {
     color: #54b8ad;
 }
 
+/* Set weight of the font */
+.bold {
+    font-weight: bold;
+}
 
