@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
     <head>
         <title>Les cinq commandements! Pas 10 pas flemme...</title>
         <meta charset="utf-8">
@@ -13,14 +13,14 @@
     <?php include('../html/header.php');?>
 
     <!-- Fifth Order section -->
-        <section id="First_order">
+        <section id="Fifth_order">
             <div class="container-fluid">
 
                 <!-- Text's row -->
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center"> 5. </h1 class="text-center">
+                        <h1 class="text-center"> 5. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
                             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -34,21 +34,21 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
+                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive">
                     </div>
                 </div>
             </div>
         </section>
 
     <!-- Fourth Order section -->
-        <section id="First_order">
+        <section id="Fourth_order">
             <div class="container-fluid">
 
                 <!-- Text's row -->
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center"> 4. </h1 class="text-center">
+                        <h1 class="text-center"> 4. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
                             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -62,21 +62,21 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
+                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive">
                     </div>
                 </div>
             </div>
         </section>
 
     <!-- Thrith Order section -->
-        <section id="First_order">
+        <section id="Third_order">
             <div class="container-fluid">
 
                 <!-- Text's row -->
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center"> 3. </h1 class="text-center">
+                        <h1 class="text-center"> 3. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
                             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -90,21 +90,21 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
+                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive">
                     </div>
                 </div>
             </div>
         </section>
 
     <!-- Second Order section -->
-        <section id="First_order">
+        <section id="Second_order">
             <div class="container-fluid">
 
                 <!-- Text's row -->
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center"> 2. </h1 class="text-center">
+                        <h1 class="text-center"> 2. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
                             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -118,7 +118,7 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
+                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center"> 1. </h1 class="text-center">
+                        <h1 class="text-center"> 1. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
                             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -146,7 +146,7 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
+                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -154,11 +154,11 @@
 
         <!-- PHP include for the footer -->
         <?php include('../html/footer.php'); ?>
-    </body>
     
-    <!-- JQuery library v. 3.3.1 -->
-    <script src="../js/jquery-3.3.1.js"></script>
+        <!-- JQuery library v. 3.3.1 -->
+        <script src="../js/jquery-3.3.1.js"></script>
 
-    <!-- Bootstrap library JS v. 3.3.7 -->
-    <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <!-- Bootstrap library JS v. 3.3.7 -->
+        <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </body>
 </html>
