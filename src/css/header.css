@@ -22,16 +22,17 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+.navbar-default h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
-	font-style: bold;
+	font-weight : bold;
 	color: #54b8ad;
 }
 
 .navbar-default .navbar-nav>li>a {
 	font-family: 'Montserrat', sans-serif;
 	color: #54b8ad;
+    font-size: 1.8em;
 }
 
 	/* Add info on h1 */
@@ -42,14 +43,14 @@ h1 {
 	/** End add info on h1 **/
 
 @media all and (max-width: 959px) and (min-width: 600px) {
-    h1{
+    .navbar-default h1{
         font-size: 4vw;
         transform: translate(30%, 0%);
     }
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
-	h1{
+	.navbar-default h1{
         font-size: 5vw;
         transform: translate(20%, 0%);
     }
