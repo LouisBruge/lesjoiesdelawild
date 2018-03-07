@@ -26,10 +26,10 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center blue"> 5. </h1>
+                        <h1 class="text-center blue bold"> 5. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blue bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
                               Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
@@ -54,10 +54,10 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center blue"> 4. </h1>
+                        <h1 class="text-center blue bold"> 4. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blue bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
                               Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
@@ -82,10 +82,10 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center blue"> 3. </h1>
+                        <h1 class="text-center blue bold"> 3. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blue bold" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
                               Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
@@ -110,10 +110,10 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center blue"> 2. </h1>
+                        <h1 class="text-center blue bold"> 2. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blue bold" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
                               Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
@@ -138,10 +138,10 @@
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
-                        <h1 class="text-center blue"> 1. </h1>
+                        <h1 class="text-center blue bold"> 1. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blue bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
                               Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
