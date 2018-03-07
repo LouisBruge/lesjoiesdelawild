@@ -160,36 +160,58 @@
 
 		<!-- Form section -->
 		<section class="form" id="contact_form">
-			<h1>Contactez nous</h1>
-			<!--Section Contact Us-->
-				<form method="post" action="traitement.php">
-					<p>
-						<label for="name">Votre nom</label>
-						<input type="text" name="name" id="name" maxlength="20" placeholder="Bond" />
-						<br>
+
+            <div class="container-fluid">
+                <div class="row">
+			        <h1 class="blue text-center">Contactez nous</h1>
+                </div>
+
+			    <!--Section Contact Us-->
+				<form method="post" action="traitement.php" class="form-horizontal">
+                    
+                    <!-- Name input -->
+                   <div class="form-group"> 
+						<label for="name" class="col-xs-2 control-label">Votre nom</label>
+                        <div class="col-xs-9">
+    						<input type="text" name="name" id="name" maxlength="20" placeholder="Bond" class="form-control" />
+                        </div>
+                    </div>
 						
-						<label for="surname">Votre prénom</label>
-						<input type="text" name="surname" id="surname" maxlength="20" placeholder="James" />
-						<br>
+                    <!-- First Name input -->
+                    <div class="form-group">
+						<label for="surname" class="col-xs-2 control-label">Votre prénom</label>
+                        <div class="col-xs-9">
+    						<input type="text" name="surname" id="surname" maxlength="20" placeholder="James" class="form-control"/>
+                        </div>
+                    </div>
 						
-						<label for="email">Votre email</label>
-						<input type="email" id="email" placeholder="jamesbond@gmail.com" />
-						<br>
+                    <!-- Email input -->
+                    <div class="form-group">
+						<label for="email" class="col-xs-2 control-label">Votre email</label>
+                        <div class="col-xs-9">
+						    <input type="email" id="email" placeholder="jamesbond@gmail.com" class="form-control" />
+                        </div>
+                    </div>
 						
-						<label for="question">Quel est votre objet ?</label>
-						<br>
+
+                    <div class="form-group">
+						<label for="question" class="col-xs-2 control-label">Quel est votre objet ?</label>
 						
-						<select name="question" id="question">
-							<option value="integration">Integration à la Wild code School</option>
-							<option value="microwave">Un micro-onde supplémentaire</option>
-							<option value="dojo">Avoir le sujet du prochain dojo</option>
-							<option value="othersubject">Autre</option>
-						</select>
-						<br>
+                        <div class="col-xs-9">
+						    <select name="question" id="question" class="form-control">
+							    <option value="integration">Integration à la Wild code School</option>
+							    <option value="microwave">Un micro-onde supplémentaire</option>
+							    <option value="dojo">Avoir le sujet du prochain dojo</option>
+							    <option value="othersubject">Autre</option>
+						    </select>
+                        </div>
+                    </div>
 						
-						<textarea rows="5" cols="100" placeholder="Our message"></textarea>
-					</p>
+                    <div class="col-xs-offset-2 col-xs-9">
+		                <textarea rows="5" placeholder="Our message" class="form-control "></textarea>
+                    </div>
 				</form>
+            </div>
 		</section>
 
 			<!--End section Contact Us-->
