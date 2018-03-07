@@ -21,7 +21,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a id="top5" href="/src/php/top_10.php">Top 5</a></li>
                         <li><a id="wildor" href="/src/php/wild_or.php">Le Wild d'or</a></li>
-                        <li><a id="contact" href="/src/php/top_10.php">Contact</a></li>
+                        <li><a id="contact" href="/src/php/top_10.php#contact_form">Contact</a></li>
                     </ul>
                     </div>
                 </div>
