@@ -171,33 +171,33 @@
                     
                     <!-- Name input -->
                    <div class="form-group"> 
-						<label for="name" class="col-xs-2 control-label">Votre nom</label>
-                        <div class="col-xs-9">
+						<label for="name" class="col-ms-2 col-xs-3 control-label">Votre nom</label>
+                        <div class="col-xs-8 col-ms-9">
     						<input type="text" name="name" id="name" maxlength="20" placeholder="Bond" class="form-control" />
                         </div>
                     </div>
 						
                     <!-- First Name input -->
                     <div class="form-group">
-						<label for="surname" class="col-xs-2 control-label">Votre prénom</label>
-                        <div class="col-xs-9">
+						<label for="surname" class="col-xs-3 col-ms-2 control-label">Votre prénom</label>
+                        <div class="col-xs-8 col-ms-9">
     						<input type="text" name="surname" id="surname" maxlength="20" placeholder="James" class="form-control"/>
                         </div>
                     </div>
 						
                     <!-- Email input -->
                     <div class="form-group">
-						<label for="email" class="col-xs-2 control-label">Votre email</label>
-                        <div class="col-xs-9">
+						<label for="email" class="col-ms-2 col-xs-3 control-label">Votre email</label>
+                        <div class="col-xs-8 col-ms-9">
 						    <input type="email" id="email" placeholder="jamesbond@gmail.com" class="form-control" />
                         </div>
                     </div>
 						
 
                     <div class="form-group">
-						<label for="question" class="col-xs-2 control-label">Quel est votre objet ?</label>
+						<label for="question" class="col-ms-2 col-xs-3 control-label">Quel est votre objet ?</label>
 						
-                        <div class="col-xs-9">
+                        <div class="col-xs-8 col-ms-9">
 						    <select name="question" id="question" class="form-control">
 							    <option value="integration">Integration à la Wild code School</option>
 							    <option value="microwave">Un micro-onde supplémentaire</option>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
 						
-                    <div class="col-xs-offset-2 col-xs-9">
+                    <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2">
 		                <textarea rows="5" placeholder="Our message" class="form-control "></textarea>
                     </div>
 				</form>
