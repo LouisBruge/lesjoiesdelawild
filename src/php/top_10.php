@@ -211,8 +211,8 @@
 		                <textarea rows="5" placeholder="Our message" class="form-control "></textarea>
                     </div>
                     
-                    <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2">
-                        <input type="submit" value="submit" class="form-control btn btn-warning btn-lg" />
+                    <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2 text-center">
+                        <input type="submit" value="submit" class="form-control btn btn-orange btn-lg" />
                     </div>
 				</form>
             </div>
