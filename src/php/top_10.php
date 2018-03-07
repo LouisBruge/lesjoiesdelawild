@@ -19,7 +19,7 @@
     <?php include('../html/header.php');?>
 
     <!-- Fifth Order section -->
-        <section id="Fifth_order">
+        <section id="Fifth_order" class="fives_rules">
             <div class="container-fluid">
 
                 <!-- Text's row -->
@@ -47,7 +47,7 @@
         </section>
 
     <!-- Fourth Order section -->
-        <section id="Fourth_order">
+        <section id="Fourth_order" class="fives_rules">
             <div class="container-fluid">
 
                 <!-- Text's row -->
@@ -75,7 +75,7 @@
         </section>
 
     <!-- Thrith Order section -->
-        <section id="Third_order">
+        <section id="Third_order" class="fives_rules">
             <div class="container-fluid">
 
                 <!-- Text's row -->
@@ -103,7 +103,7 @@
         </section>
 
     <!-- Second Order section -->
-        <section id="Second_order">
+        <section id="Second_order" class="fives_rules">
             <div class="container-fluid">
 
                 <!-- Text's row -->
@@ -131,7 +131,7 @@
         </section>
 
     <!-- First Order section -->
-        <section id="First_order">
+        <section id="First_order" class="fives_rules">
             <div class="container-fluid">
 
                 <!-- Text's row -->
