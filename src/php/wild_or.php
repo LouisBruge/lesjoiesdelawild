@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="zxx">
+    <head>
 	<meta charset="utf-8">
 	<title>mediaobject</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="mediaobject.css">
-</head>
+
+    <!-- Bootstrap library CSS v. 3.3.7 -->
+    <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    </head>
 	<body>
-		<header>
-		</header>
+        <!-- PHP navbar include -->
+        <?php include('../html/header.php'); ?>
+
 		<!--Section wild d'or-->
 		<section class="guestbook">
 			<div class="container">
@@ -68,6 +73,14 @@
 		</section>
 		<!--End section wild d'or-->
 
+        <!-- PHP include for the footer -->
+        <?php include('../html/footer.php'); ?>
+    
+        <!-- JQuery library v. 3.3.1 -->
+        <script src="../js/jquery-3.3.1.js"></script>
+
+        <!-- Bootstrap library JS v. 3.3.7 -->
+        <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     
 	</body>
 </html>
