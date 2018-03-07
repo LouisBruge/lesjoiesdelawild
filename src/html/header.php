@@ -20,8 +20,8 @@
                     <div class="collapse navbar-collapse" id="top-navbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a id="top5" href="/src/php/top_10.php">Top 5</a></li>
-                        <li><a id="wildor" href="wildor">Le Wild d'or</a></li>
-                        <li><a id="contact" href="#">Contact</a></li>
+                        <li><a id="wildor" href="/src/php/wild_or.php">Le Wild d'or</a></li>
+                        <li><a id="contact" href="/src/php/top_10.php">Contact</a></li>
                     </ul>
                     </div>
                 </div>
