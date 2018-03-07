@@ -152,6 +152,43 @@
             </div>
         </section>
 
+		<!-- Form section -->
+		<section class="form">
+			<h1>Contactez nous</h1>
+			<!--Section Contact Us-->
+				<form method="post" action="traitement.php">
+					<p>
+						<label for="name">Votre nom</label>
+						<input type="text" name="name" id="name" maxlength="20" placeholder="Bond" />
+						<br>
+						
+						<label for="surname">Votre prénom</label>
+						<input type="text" name="surname" id="surname" maxlength="20" placeholder="James" />
+						<br>
+						
+						<label for="email">Votre email</label>
+						<input type="email" id="email" placeholder="jamesbond@gmail.com" />
+						<br>
+						
+						<label for="question">Quel est votre objet ?</label>
+						<br>
+						
+						<select name="question" id="question">
+							<option value="integration">Integration à la Wild code School</option>
+							<option value="microwave">Un micro-onde supplémentaire</option>
+							<option value="dojo">Avoir le sujet du prochain dojo</option>
+							<option value="othersubject">Autre</option>
+						</select>
+						<br>
+						
+						<textarea rows="5" cols="100" placeholder="Our message"></textarea>
+					</p>
+				</form>
+		</section>
+
+			<!--End section Contact Us-->
+
+
         <!-- PHP include for the footer -->
         <?php include('../html/footer.php'); ?>
     
