@@ -153,7 +153,7 @@
         </section>
 
 		<!-- Form section -->
-		<section class="form">
+		<section class="form" id="contact_form">
 			<h1>Contactez nous</h1>
 			<!--Section Contact Us-->
 				<form method="post" action="traitement.php">
