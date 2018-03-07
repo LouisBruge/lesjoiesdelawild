@@ -10,10 +10,14 @@
  *  * Fonts color 
  *  * Fonts weight
  *
- *  ** FIVES_RULES Sections properties **
+ *  ** .FIVES_RULES Sections properties **
  *  * h1 tag properties
  *  * img tag properties 
+ *
+ *  ** #CONTACT_FORM properties **
+ *  * label tag properties
  */
+
 
 /**
  *  MAINS PROPERTIES FOR FONTS
@@ -40,7 +44,7 @@ p {
 }
 
 /**
- *  FIVES_RULES Sections properties
+ *  .FIVES_RULES Sections properties
  **/
 
 /* Set the attribues font-size of the h1 tag */
@@ -76,4 +80,13 @@ p {
 .fives_rules img.img-responsive {
     padding: 2vmin;
     margin: auto;
+}
+
+/**
+ *  #CONTACT_FORM
+ **/
+
+#contact_form label {
+    font-size: 2em;
+    font-weight: bold;
 }
