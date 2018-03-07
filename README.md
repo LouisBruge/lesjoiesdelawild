@@ -9,11 +9,11 @@ A [Wild Code School's project](https://wildcodeschool.fr/)
         * **js** :  Javascript files  
             * **bootstrap** v3.3.7 
             * **jquery** v.3.3.1
-        * **src** : PHP files
+        * **php** : PHP files
     * **public** : internal ressources
         * index.php
         * **assets** :
             * **fonts** : fonts directory  
             * **img** : images directory  
-    * **wireframe** : wireframes
+    * **wireframes** : wireframes
     * README.md
