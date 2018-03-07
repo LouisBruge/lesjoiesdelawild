@@ -3,12 +3,13 @@
     <head>
 	<meta charset="utf-8">
 	<title>mediaobject</title>
-    
-    <link rel="stylesheet" href="mediaobject.css">
 
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
 
+    <link rel="stylesheet" href="mediaobject.css">
+
+    <link rel="stylesheet" href="../css/header.css">
     </head>
 	<body>
         <!-- PHP navbar include -->
