@@ -12,114 +12,30 @@
     <!-- Fifth Order section -->
         <section id="First_order">
             <div class="container-fluid">
+
+                <!-- Text's row -->
                 <div class="row">
                     <div class="col-md-1 col-xs-1">
                         <!-- Title -->
                         <h1 class="text-center"> 5. </h1 class="text-center">
                     </div>
                     <div class="col-md-5 col-xs-11">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in. Suspendisse potenti. Sed ornare metus risus, eu molestie leo tincidunt in. Nullam sollicitudin ipsum pharetra tincidunt fermentum. Sed ac lorem sed orci aliquet sagittis quis ut massa. Pellentesque a vestibulum metus. Donec euismod bibendum eleifend. Suspendisse mauris ligula, viverra id orci ut, pellentesque vestibulum ante.
+                              Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in.
                         </p>
                     </div>
-
-                    <div class="col-md-6 hidden-sm hidden-xs">
+                </div>
+                    
+                <!-- Row for the image -->
+                <div class="row hidden-sm hidden-xs">
+                    <div class="col-md-offset-6 col-md-6 hidden-sm hidden-xs">
                         <!-- Image -->
                         <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
                     </div>
                 </div>
             </div>
         </section>
-
-    <!-- Fourth Order section -->
-        <section id="First_order">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 hidden-sm hidden-xs">
-                        <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
-                    </div>
-
-                    <div class="col-md-1 col-xs-1">
-                        <!-- Title -->
-                        <h1 class="text-center"> 4. </h1 class="text-center">
-                    </div>
-                    <div class="col-md-5 col-xs-11">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in. Suspendisse potenti. Sed ornare metus risus, eu molestie leo tincidunt in. Nullam sollicitudin ipsum pharetra tincidunt fermentum. Sed ac lorem sed orci aliquet sagittis quis ut massa. Pellentesque a vestibulum metus. Donec euismod bibendum eleifend. Suspendisse mauris ligula, viverra id orci ut, pellentesque vestibulum ante.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- Thirth Order section -->
-        <section id="First_order">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-1 col-xs-1">
-                        <!-- Title -->
-                        <h1 class="text-center"> 3. </h1 class="text-center">
-                    </div>
-                    <div class="col-md-5 col-xs-11">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in. Suspendisse potenti. Sed ornare metus risus, eu molestie leo tincidunt in. Nullam sollicitudin ipsum pharetra tincidunt fermentum. Sed ac lorem sed orci aliquet sagittis quis ut massa. Pellentesque a vestibulum metus. Donec euismod bibendum eleifend. Suspendisse mauris ligula, viverra id orci ut, pellentesque vestibulum ante.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6 hidden-sm hidden-xs">
-                        <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- Second Order section -->
-        <section id="First_order">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 hidden-sm hidden-xs">
-                        <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
-                    </div>
-
-                    <div class="col-md-1 col-xs-1">
-                        <!-- Title -->
-                        <h1 class="text-center"> 2. </h1 class="text-center">
-                    </div>
-                    <div class="col-md-5 col-xs-11">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in. Suspendisse potenti. Sed ornare metus risus, eu molestie leo tincidunt in. Nullam sollicitudin ipsum pharetra tincidunt fermentum. Sed ac lorem sed orci aliquet sagittis quis ut massa. Pellentesque a vestibulum metus. Donec euismod bibendum eleifend. Suspendisse mauris ligula, viverra id orci ut, pellentesque vestibulum ante.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- First Order section -->
-        <section id="First_order">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-1 col-xs-1">
-                        <!-- Title -->
-                        <h1 class="text-center"> 1. </h1 class="text-center">
-                    </div>
-                    <div class="col-md-5 col-xs-11">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem risus, porttitor condimentum elit a, egestas faucibus est. Proin euismod mauris egestas arcu convallis, eu dapibus justo convallis. Suspendisse potenti. Donec tempor ultricies augue non accumsan. Praesent pulvinar, ex in dapibus varius, nunc justo pulvinar purus, et viverra lorem purus ut orci. In hendrerit sagittis blandit. Donec tincidunt gravida mauris, a pharetra ligula congue in. Suspendisse potenti. Sed ornare metus risus, eu molestie leo tincidunt in. Nullam sollicitudin ipsum pharetra tincidunt fermentum. Sed ac lorem sed orci aliquet sagittis quis ut massa. Pellentesque a vestibulum metus. Donec euismod bibendum eleifend. Suspendisse mauris ligula, viverra id orci ut, pellentesque vestibulum ante.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6 hidden-sm hidden-xs">
-                        <!-- Image -->
-                        <img src="http://via.placeholder.com/800x250" alt="Placeholder" class="img-responsive"></img>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </body>
     
     <!-- JQuery library v. 3.3.1 -->
