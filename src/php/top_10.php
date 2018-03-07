@@ -4,8 +4,12 @@
         <title>Les cinq commandements! Pas 10 pas flemme...</title>
         <meta charset="utf-8">
 
-        <!-- Boostrap library CSS v. 3.3.7 -->
+        <!-- Bootstrap library CSS v. 3.3.7 -->
         <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
+        
+        <!-- Links to the top_10.css file -->
+        <link rel="stylesheet" media="all" type="text/css" href="../css/top_10.css">
+
     </head>
     <body>
 
