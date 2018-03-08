@@ -1,3 +1,4 @@
+
 /*Section guestbook*/
 
 .guestbook {
@@ -5,9 +6,9 @@
 }
 
 blockquote p::after, blockquote p::before {
-  content : '"';;
-  font-size: : 10px;;
-  color: #f9a02e;;
+  content : '"';
+  font-size: : 4em;
+  color: #f9a02e;
 }
 
 cite {
@@ -15,9 +16,18 @@ cite {
 }
 
 button {
-	background-color: #f9a02e
+	background-color: #f9a02e;
+
 }
 
 h1 {
-	color: #54b8ad
+	color: #54b8ad;
+}
+
+/* Section form_wild_book */
+
+section#form_wild_book div.row {
+    margin-top: 15px; 
+    margin-right: 0px;
+    margin-left: 0px;
 }

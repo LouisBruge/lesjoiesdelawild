@@ -8,10 +8,9 @@
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
 
-    <link rel="stylesheet" href="mediaobject.css">
-
     <link rel="stylesheet" href="../css/header.css">
 
+    <link rel="stylesheet" href="../css/wild_or.css">
     </head>
 	<body>
         <!-- PHP navbar include -->
@@ -19,9 +18,9 @@
 
 		<!--Section wild d'or-->
 		<section class="guestbook">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-12 text-center">
+					<div class="col-lg-offset-1 col-lg-10 text-center">
 						<h1>Le Wild d'or</h1>
 			
 							<!--Customer Louis-->
@@ -48,34 +47,40 @@
 							     <small>by <cite>Julien</cite></small>
 							</blockquote>
 							<br>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section id="form_wild_book">
+                <div class="container-fluid">
 						<div class="row">
-
 			           		<!-- Picture for the Guest boook -->
-			            	<div class="col-md-6 hidden-xs">
-								<div class="media-center">
-				                	<img src="/public/assets/img/stark.gif"> 
-			                	</div>
+			            	<div class="col-md-offset-1 col-md-4 hidden-sm hidden-xs media-left">
+				                	<img src="/public/assets/img/stark.gif" alt="Gif picture with Stark" class="block-center img-responsive"> 
         					</div>
+
 			            <!-- Form for the Guest Book -->
-			            	<div class="col-xs-12 col-md-6">
-								<div class="media-left">
-				                	<form method="post" action="traitement.php">
-										<p>
-											<label for="pseudo">Votre pseudo</label>
-											<input type="text" name="pseudo" id="pseudo" maxlength="20" placeholder="TotoRoxxx" />
-											<br>
-											<textarea rows="5" cols="50" placeholder="Laisse un commentaire"></textarea>
-											<br>
-											<button type="submit" class="send">Envoyer</button>
-										</p>
-									</form>
-			                	</div>
-			        		</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 media-right">
+				               	<form method="post" action="traitement.php" class="form-horizontal">
+                                    <div class="form-group">
+										<label for="pseudo" class="control-label col-xs-2 col-ms-1 text-center">Votre pseudo</label>
+                                        <div class="col-xs-9 col-ms-10">
+									    <input type="text" name="pseudo" id="pseudo" maxlength="20" placeholder="TotoRoxxx" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+										<textarea rows="5"  placeholder="Laisse un commentaire" class="form-control"></textarea>
+                                    </div>
+                                    <div class="form-group text-center">
+										<button type="submit" class="send">Envoyer</button>
+                                    </div>
+								</form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			<hr>
 		</section>
 		<!--End section wild d'or-->
