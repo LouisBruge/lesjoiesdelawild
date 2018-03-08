@@ -13,6 +13,9 @@
         <!-- Links to the header.css file for the navbar -->
         <link rel="stylesheet" media="all" type="text/css" href="../css/header.css">
 
+        <!-- link to the footer.css -->
+        <link rel="stylesheet" media="all" type="text/css" href="../css/footer.css">
+
         <!-- Link to the google fonts Montserrat -->
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
