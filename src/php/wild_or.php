@@ -4,10 +4,11 @@
 	<meta charset="utf-8">
 	<title>mediaobject</title>
     
-    <link rel="stylesheet" href="mediaobject.css">
 
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="mediaobject.css">
 
     </head>
 	<body>
@@ -47,29 +48,33 @@
 							<br>
 
 						<div class="row">
+
+			           		<!-- Picture for the Guest boook -->
+			            	<div class="col-md-6 hidden-xs">
+								<div class="media-center">
+				                	<img src="/public/assets/img/stark.gif"> 
+			                	</div>
+        					</div>
 			            <!-- Form for the Guest Book -->
 			            	<div class="col-xs-12 col-md-6">
-								<div class="media-center">
+								<div class="media-left">
 				                	<form method="post" action="traitement.php">
 										<p>
 											<label for="pseudo">Votre pseudo</label>
 											<input type="text" name="pseudo" id="pseudo" maxlength="20" placeholder="TotoRoxxx" />
 											<br>
-											<textarea rows="5" cols="50" placeholder="Your message"></textarea>
+											<textarea rows="5" cols="50" placeholder="Laisse un commentaire"></textarea>
+											<br>
+											<button type="submit" class="send">Envoyer</button>
 										</p>
 									</form>
 			                	</div>
 			        		</div>
-			           	<!-- Picture for the Guest boook -->
-			            	<div class="col-md-6 hidden-xs">
-								<div class="media-center">
-				                	<img src="integration/hunter2.png" alt="Goblin45's portrait">
-			                	</div>
-        					</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<hr>
 		</section>
 		<!--End section wild d'or-->
 
