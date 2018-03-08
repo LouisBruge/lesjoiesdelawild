@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/css/footer.css"/>
    
   </head>
 
