@@ -1,5 +1,4 @@
-.container-fluid {
-    position: fixed;
+footer .container-fluid {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -8,18 +7,24 @@
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+
+    margin-left: 0px;
 }
 
-.heart {
+footer .heart {
 	color: red;
 }
 
-li {
+footer li {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
- .logo {
+ footer .logo {
  	width: 40px;
  	height: 40px;
+ }
+
+ footer .row {
+     margin: 0;
  }
