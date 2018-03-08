@@ -16,6 +16,9 @@
 
     <!-- CSS file for the footer -->
     <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Link to the google fonts Montserrat -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
 	<body>
         <!-- PHP navbar include -->

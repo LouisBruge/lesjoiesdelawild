@@ -1,4 +1,19 @@
 
+/**
+ *  MAINS PROPERTIES FOR FONTS
+ **/
+
+/* Font family for the body and the titles */
+body {
+    font-family: 'Montserrat';
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2em;
+}
+
+
 /*Section guestbook*/
 
 .guestbook {
@@ -7,8 +22,12 @@
 
 blockquote p::after, blockquote p::before {
   content : '"';
-  font-size: : 4em;
+  font-size: 20px; 
   color: #f9a02e;
+}
+
+blockquote {
+    font-size: 2em;
 }
 
 cite {
@@ -17,7 +36,12 @@ cite {
 
 button {
 	background-color: #f9a02e;
+    font-size: 2em;
+}
 
+label.control-label {
+    font-size: 2em;
+    text-align: right;
 }
 
 h1 {
