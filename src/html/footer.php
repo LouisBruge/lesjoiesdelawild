@@ -14,7 +14,7 @@
 			    	<!--Second column -->
 			    	<div class="col-md-4">
 			    		<li><a href="https://wildcodeschool.fr/" target="_blank">Wild Code School</a></li>
-			    		<li><img class="logo" src="/lesjoiesdelawild/public/assets/img/logo.png"></li>
+			    		<li><img class="logo" src="/public/assets/img/logo.png"></li>
 			    	</div>
 
 			    	<!-- Third column -->
