@@ -14,6 +14,7 @@
 
   <body>
     <?php include('../src/html/header.php');?>
+
   	<div class="container-fluid">
 
   	<h1>L'ambiance à la Wild</h1>
@@ -55,7 +56,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-5">
-			<img src="http://via.placeholder.com/140x140" class="img-responsive">
+			<img alt="placeholder" src="http://via.placeholder.com/140x140" class="img-responsive">
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
 		</div>
 		<div class="col-md-2">
@@ -65,12 +66,12 @@
 		</div>
 		<div class="col-md-5">
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
-			<img src="http://via.placeholder.com/140x140" class="img-responsive">
+			<img alt="placeholder" src="http://via.placeholder.com/140x140" class="img-responsive">
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-5">
-			<img src="http://via.placeholder.com/140x140" class="img-responsive">
+			<img alt="placeholder" src="http://via.placeholder.com/140x140" class="img-responsive">
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
 		</div>
 		<div class="col-md-2">
@@ -80,12 +81,13 @@
 		</div>
 		<div class="col-md-5">
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
-			<img src="http://via.placeholder.com/140x140" class="img-responsive">
+			<img alt="placeholder" src="http://via.placeholder.com/140x140" class="img-responsive">
 		</div>
 	</div>
 
+</div>
         <?php include('../src/html/footer.php') ?>
+        <script src="../src/js/jquery-3.3.1.js"></script>
+        <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
 	</body>
-<script src="../src/js/jquery-3.3.1.js"></script>
-<script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
 </html>
