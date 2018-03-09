@@ -1,0 +1,57 @@
+
+/**
+ *  MAINS PROPERTIES FOR FONTS
+ **/
+
+/* Font family for the body and the titles */
+body {
+    font-family: 'Montserrat';
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2em;
+}
+
+
+/*Section guestbook*/
+
+.guestbook {
+	background-color: #f5f5f5;
+}
+
+blockquote p::after, blockquote p::before {
+  content : '"';
+  font-size: 20px; 
+  color: #f9a02e;
+}
+
+blockquote {
+    font-size: 2em;
+}
+
+cite {
+	font-weight: bold;
+}
+
+button {
+	background-color: #f9a02e;
+    font-size: 2em;
+}
+
+label.control-label {
+    font-size: 2em;
+    text-align: right;
+}
+
+h1 {
+	color: #54b8ad;
+}
+
+/* Section form_wild_book */
+
+section#form_wild_book div.row {
+    margin-top: 15px; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
