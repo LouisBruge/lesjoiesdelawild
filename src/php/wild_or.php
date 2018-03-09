@@ -8,9 +8,17 @@
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
 
+    <!-- CSS file for the footer -->
     <link rel="stylesheet" href="../css/header.css">
 
+    <!-- CSS file for this page -->
     <link rel="stylesheet" href="../css/wild_or.css">
+
+    <!-- CSS file for the footer -->
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Link to the google fonts Montserrat -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
 	<body>
         <!-- PHP navbar include -->
