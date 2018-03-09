@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/css/footer.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
    
   </head>
 
   <body>
+    <?php include('../src/html/header.php');?>
   	<div class="container-fluid">
 
   	<h1>L'ambiance à la Wild</h1>
@@ -81,6 +84,7 @@
 		</div>
 	</div>
 
+        <?php include('../src/html/footer.php') ?>
 	</body>
 <script src="../src/js/jquery-3.3.1.js"></script>
 <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
