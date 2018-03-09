@@ -31,28 +31,24 @@
 					<div class="col-lg-offset-1 col-lg-10 text-center">
 						<h1>Le Wild d'or</h1>
 			
-							<!--Customer Louis-->
 							<blockquote>
-							     <p>Super formation, j'ai eu la chance de former 22 noobs et de réussir avec succes mon CAPES developpeur web !</p>
-							     <small>by <cite>Louis</cite></small>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu.</p>
+							     <small>by <cite>Lorem ipsum</cite></small>
 							</blockquote>
 
-							<!--Customer Lucas-->
 							<blockquote>
-							     <p>Lorem ipsum, bro ! Et merci à Toto Tutu et Tata pour leurs conseils précieux!</p>
-							     <small>by <cite>Lucas</cite></small>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu.</p>
+							     <small>by <cite>Lorem ipsum</cite></small>
 							</blockquote>
 
-							<!--Customer Amandine-->
 							<blockquote>
-							     <p>Enorme grace à cette formation j'ai pu intégrer la maison Dior en tant que developpeur PHP, " JS is a useless language" ! Merci Gaetan</p>
-							     <small>by <cite>Amandine</cite></small>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu.</p>
+							     <small>by <cite>Lorem ipsum</cite></small>
 							</blockquote>
 
-							<!--Customer Julien-->
 							<blockquote>
-							     <p>Malgré une super ambiance j'ai quitté la wild après le projet 1,(Conflit interne avec Ama....e) ! Et j'ai ouvert un foodtruck à Byron bay en Australie. See you there mates. PS : -10% pour les wilders!</p>
-							     <small>by <cite>Julien</cite></small>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu.</p>
+							     <small>by <cite>Lorem ipsum</cite></small>
 							</blockquote>
 							<br>
                         </div>
@@ -65,7 +61,7 @@
 						<div class="row">
 			           		<!-- Picture for the Guest boook -->
 			            	<div class="col-md-offset-1 col-md-4 hidden-sm hidden-xs media-left">
-				                	<img src="/public/assets/img/stark.gif" alt="Gif picture with Stark" class="block-center img-responsive"> 
+				                	<img src="http://via.placeholder.com/500x250" alt="placeholder" class="block-center img-responsive"> 
         					</div>
 
 			            <!-- Form for the Guest Book -->
