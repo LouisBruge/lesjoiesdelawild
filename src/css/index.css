@@ -1,0 +1,44 @@
+body{
+	background-color: #F5F5F5;
+}
+
+h1{
+	color: #54b8ad;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.row img{
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.row p{
+	margin: 0 auto;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+}
+
+
+
+.carousel-inner img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel-caption{
+	color: black;
+	text-shadow: black 5px 3px 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.outer {
+	margin: auto;
+	width: 0.05em;
+	height: 20em;
+	background-color: #f9a02e;
+	position: relative;
+	border-radius: 20em;
+}
