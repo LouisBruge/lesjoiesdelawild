@@ -1,5 +1,10 @@
 body{
 	background-color: #F5F5F5;
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2em;
 }
 
 h1{
