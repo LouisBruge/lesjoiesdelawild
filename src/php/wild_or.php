@@ -59,6 +59,7 @@
             <section id="form_wild_book">
                 <div class="container-fluid">
 						<div class="row">
+                            <h1 class="text-center">Formulaire d'ajout</h1>
 			           		<!-- Picture for the Guest boook -->
 			            	<div class="col-md-offset-1 col-md-4 hidden-sm hidden-xs media-left">
 				                	<img src="http://via.placeholder.com/500x250" alt="placeholder" class="block-center img-responsive"> 
@@ -78,7 +79,7 @@
 										<textarea rows="5"  placeholder="Laisse un commentaire" class="form-control"></textarea>
                                     </div>
                                     <div class="form-group text-center">
-										<input type="submit" class="send btn btn-sm btn-orange"></input>
+										<input type="submit" class="send btn btn-sm btn-orange">
                                     </div>
 								</form>
                             </div>
