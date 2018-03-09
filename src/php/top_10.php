@@ -35,7 +35,7 @@
                         <h1 class="text-center blue bold"> 5. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold">Dojo Time !</h2>
+                            <h2 class="blue bold">Lorem ipsum</h2>
 
                     </div>
                 </div>
@@ -43,15 +43,15 @@
                 <!-- Row for the image -->
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand Gaëtan vient te chercher pour aller en Dojo !</p>
-                        <img src="/public/assets/img/dojo.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
 
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand Louis résoud le dojo alors que t'as galéré pendant 57 minutes !</p>
-                        <img src="/public/assets/img/Louis.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
             </div>
@@ -68,22 +68,22 @@
                         <h1 class="text-center blue bold"> 4. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold">Have a break have a ... </h2>
+                            <h2 class="blue bold">Lorem ipsum</h2>
                     </div>
                 </div>
                     
                 <!-- Row for the image -->
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu attends ton tour pour le seul, le grand, l'unique, la clé de voute de la wild, le MICRO-ONDE !</p>
-                        <img src="/public/assets/img/wait.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
 
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu as 3 vies et que tu fais du ping-pong champagne !</p>
-                        <img src="/public/assets/img/pingpong.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
             </div>
@@ -100,22 +100,22 @@
                         <h1 class="text-center blue bold"> 3. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold" >Quest Time.</h2>
+                            <h2 class="blue bold" >Lorem ipsum</h2>
                     </div>
                 </div>
                     
                 <!-- Row for the image -->
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand ton responsive fonctionne du feu de DIEU !</p>
-                        <img src="/public/assets/img/responsive.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
 
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu arrives à resoudre ton problème alors que ca fait 2h que tu en chies !</p>
-                        <img src="/public/assets/img/celebration.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
             </div>
@@ -132,22 +132,22 @@
                         <h1 class="text-center blue bold"> 2. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold" >WARNING ZONE.</h2>
+                            <h2 class="blue bold" >Lorem ipsum</h2>
                     </div>
                 </div>
                     
                 <!-- Row for the image -->
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu joues avec le feu ou ta vie clairement !</p>
-                        <img src="/public/assets/img/magueule.jpg" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
 
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu arrives à resoudre ton problème alors que ca fait 2h que tu en chies !</p>
-                        <img src="/public/assets/img/celebration.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
             </div>
@@ -164,15 +164,15 @@
                         <h1 class="text-center blue bold"> 1. </h1>
                     </div>
                     <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold">Steal loving you wilders !</h2>
+                            <h2 class="blue bold">Lorem ipsum</h2>
                     </div>
                 </div>
                     
                 <!-- Row for the image -->
                 <div class="row">
                     <div >
-                        <p class="text-center"> Quand tu voles une idée à l'un des groupes pour le projet 1 !</p>
-                        <img src="/public/assets/img/project.gif" alt="dojo" class="img-responsive center-block">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ex eu justo iaculis dignissim nec eu arcu. Cras sodales in ante vitae luctus.</p>
+                        <img src="http://via.placeholder.com/500x250" alt="placeholder" class="img-responsive center-block">
                     </div>
                 </div>
             </div>
