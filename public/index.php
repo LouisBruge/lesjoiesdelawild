@@ -91,7 +91,7 @@
                         Sur son univers impitoyable? <br />
                     </p>
                 </div>
-                <button class="btn btn-orange col-xs-offset-1 col-xs-10"> <a href="/src/php/top_5.php">Clique ici! </a></button>
+                <a class="btn btn-orange col-xs-offset-1 col-xs-10" href="/src/php/top_10.php">Clique ici! </a>
             </div>
         </div>
     </section>
