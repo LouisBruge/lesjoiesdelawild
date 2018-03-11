@@ -83,6 +83,18 @@
 			<img src="http://via.placeholder.com/140x140" class="img-responsive">
 		</div>
 	</div>
+    <section id="link_to_top_5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 text-center">
+                    <p> Tu souhaites en découvrir d'avantage sur la <b>Wild Code School de Lille</b> ? <br />
+                        Sur son univers impitoyable? <br />
+                    </p>
+                </div>
+                <button class="btn btn-orange col-xs-offset-1 col-xs-10"> <a href="/src/php/top_5.php">Clique ici! </a></button>
+            </div>
+        </div>
+    </section>
 
         <?php include('../src/html/footer.php') ?>
 	</body>
