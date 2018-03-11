@@ -82,7 +82,7 @@
 										<textarea rows="5"  placeholder="Laisse un commentaire" class="form-control"></textarea>
                                     </div>
                                     <div class="form-group text-center">
-										<button type="submit" class="send">Envoyer</button>
+                                        <input type="submit" class="form-control btn btn-orange">
                                     </div>
 								</form>
                             </div>
