@@ -26,19 +26,19 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="yolo.png" alt="Image 1">
+				<img src="http://via.placeholder.com/1500x500" alt="Image 2">
 				<div class="carousel-caption">
 					<h3>C'est à Lille qu'on apprend le mieux</h3>
 				</div>
 			</div>
 			<div class="item">
-				<img src="slide2.png" alt="Image 2">
+				<img src="http://via.placeholder.com/1500x500" alt="Image 2">
 				<div class="carousel-caption">
 					<h3>C'est à Lille qu'on rigole le plus</h3>
 				</div>
 			</div>
 			<div class="item">
-				<img src="yolo.png" alt="Image 3">
+				<img src="http://via.placeholder.com/1500x500" alt="Image 2">
 				<div class="carousel-caption">
 					<h3>C'est à Lille que les gens sont les plus cools</h3>
 				</div>
