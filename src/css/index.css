@@ -1,6 +1,28 @@
-body{
+/**
+ *  MAINS PROPERTIES FOR FONTS
+ **/
+
+/* Font family for the body and the titles */
+body {
+    font-family: 'Montserrat';
+    font-size: 62.5%;
 	background-color: #F5F5F5;
 }
+
+p {
+    font-size: 2em;
+}
+
+/* Set font's color to blue for the titles and the links */
+.blue {
+    color: #54b8ad;
+}
+
+/* Set weight of the font */
+.bold {
+    font-weight: bold;
+}
+
 
 h1{
 	color: #54b8ad;
