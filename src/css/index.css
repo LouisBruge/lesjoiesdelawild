@@ -42,3 +42,7 @@ h1{
 	position: relative;
 	border-radius: 20em;
 }
+
+audio{
+	visibility: hidden;
+}
