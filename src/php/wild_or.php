@@ -28,7 +28,7 @@
 		<section class="guestbook">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-offset-1 col-lg-10 text-center">
+					<div class="col-lg-offset-1 col-lg-10 text-center" id="citations">
 						<h1>Le Wild d'or</h1>
 			
 							<!--Customer Louis-->
@@ -71,11 +71,11 @@
 			            <!-- Form for the Guest Book -->
                             <div class="row">
                                 <div class="col-md-6 col-xs-12 media-right">
-				               	<form method="post" action="traitement.php" class="form-horizontal">
+				               	<form id="form_wild" class="form-horizontal" action="#">
                                     <div class="form-group">
 										<label for="pseudo" class="control-label col-xs-2 col-ms-1 text-center">Votre pseudo</label>
                                         <div class="col-xs-9 col-ms-10">
-									    <input type="text" name="pseudo" id="pseudo" maxlength="20" placeholder="TotoRoxxx" class="form-control" />
+									    <input type="text" id="pseudo" maxlength="20" placeholder="TotoRoxxx" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -101,6 +101,8 @@
 
         <!-- Bootstrap library JS v. 3.3.7 -->
         <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+        <script src="../js/wild_or_form.js"></script>
     
 	</body>
 </html>
