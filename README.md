@@ -1,12 +1,12 @@
 # Wild Happiness project #
 
 ## Description ##
-A showcase site for a [Wild Code School's project](https://wildcodeschool.fr/), using Html 5, CSS 3, Bootstrap 3.3.7 and JavaScript ES6.  
+A showcase site for a [Wild Code School's project](https://wildcodeschool.fr/), using Html 5, CSS 3, Bootstrap 3.3.7, PHP 7 and JavaScript ES6.  
 A fictive project that combines the concept of the website [lesjoiesducode](https://lesjoiesducode.fr/) with the promo of lille Wild Code School.
 
 
 ## Contributors ##
-* **Clade** Amandine
+* **Claude** Amandine
 * **Lemaire** Julien
 * **Poirier** Lucas
 * **Bruge** Louis
@@ -14,6 +14,7 @@ A fictive project that combines the concept of the website [lesjoiesducode](http
 ## Technos ##
 * HTML 5
 * CSS 3
+* PHP 7
 * JavaScript ES6
 * Bootstrap 3.3.7
 * JQuery 3.3.1
@@ -22,7 +23,12 @@ A fictive project that combines the concept of the website [lesjoiesducode](http
 Stand-alone project
 
 ## Install the project ##
-Go to your www/ folder and move this repo in it
+Go to your www/ folder and move this repo in it or clone the repo  
+And run a php server :
+```bash
+cd <your repo>
+php -S localhost:8000
+```
 
 ## Directory Structure of the project ##  
 * **root directory**  
