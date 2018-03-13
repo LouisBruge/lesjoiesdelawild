@@ -178,6 +178,16 @@
             </div>
         </section>
 
+        <!-- Link to the Golden wild -->
+        <section id="linkToTheGoldenWild">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 text-center">
+                    <p><b> Satisfait? tu en veux toujours plus? N'hésite pas à laisser un petit message sur notre Wild d'or pour nous le dire </b></p>
+                </div>
+                <a class="btn btn-orange col-xs-offset-1 col-xs-10" href="/src/php/wild_or.php">Clique ici!</a>
+            </div>
+        </section>
+
 		<!-- Form section -->
 		<section class="form" id="contact_form">
 

@@ -7,15 +7,21 @@
     <meta name="author" content="Louis Bruge, Lucas Poirier, Julien Lemaire et Amandine Claude">
     <meta name="description" content="First project Wild Code School">
     <meta name="keywords" content="First project">
+    
+<!--Title of the page -->
     <title>Bienvenue à Lille, futurs wilders !</title>
+    
 <!-- Bootstrap CSS files -->
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    
 <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/header.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/footer.css"/>
+    
 <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 <!-- Favicon -->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,9 +30,11 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+ 
   </head>
 
-  <body>
+  <body onload="Weather()">
     <?php include('../src/html/header.php');?>
   	<div class="container-fluid">
         <div id="slider" class="carousel slide" data-ride="carousel">
@@ -54,8 +62,22 @@
 				<span class="glyphicon glyphicon-chevron-right"></span>
 				<span class="sr-only">Next</span>
 			</a>
+
 	    </div>
     </div>
+
+	</div>
+    
+    <!-- Weather Section -->
+	<section id="weather">
+        <div class="container">
+            <div class="row">
+		        <h2> Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span> <br> <h4>C'est ce que tu verrais si tu mettais le nez dehors</h4></h2>
+		        <img class="img-responsive"id="pictureOfLille" src="" alt="The town of Lille according the weather" />
+            </div>
+        </div>
+	</section>
+
 	<div class="row">
 		<div class="col-md-5">
 			<img src="/public/assets/img/slippers.jpg" alt="slippersMascott">
@@ -76,6 +98,7 @@
 			<img src="/public/assets/img/alone.jpg" alt="alone">
 		</div>
 	</div>
+
     <section id="link_to_top_5">
         <div class="container-fluid">
             <div class="row">
@@ -86,9 +109,15 @@
             </div>
         </div>
     </section>
-
+        <!-- Footer include by php -->
         <?php include('../src/html/footer.php') ?>
+	</body>    
+    <!-- load the JQuery v. 3.3.1. Library -->
     <script src="../src/js/jquery-3.3.1.js"></script>
-    <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-  </body>
+
+    <!-- load the Bootstrap v. 3.3.7 Library -->
+    <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
+    
+    <!-- load a personnal script in order to change the picture of Lille according the weather -->
+    <script src="../src/js/weather.js"></script>
 </html>
