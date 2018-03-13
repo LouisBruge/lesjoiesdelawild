@@ -12,7 +12,7 @@
     <title>Meilleure Wild de France !</title>
   </head>
 
-  <body>
+  <body onload="Weather()">
     <?php include('../src/html/header.php');?>
   	<div class="container-fluid">
 
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row">
 		        <h2> Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span> <br> <h4>C'est ce que tu verrais si tu mettais le nez dehors</h4></h2>
-		        <img class="img-responsive"id="Image" src="" alt="coucou" />
+		        <img class="img-responsive"id="pictureOfLille" src="" alt="The town of Lille according the weather" />
             </div>
         </div>
 	</section>
@@ -110,6 +110,13 @@
 
         <?php include('../src/html/footer.php') ?>
 	</body>
+    
+    <!-- load the JQuery v. 3.3.1. Library -->
     <script src="../src/js/jquery-3.3.1.js"></script>
+
+    <!-- load the Bootstrap v. 3.3.7 Library -->
     <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
+    
+    <!-- load a personnal script in order to change the picture of Lille according the weather -->
+    <script src="../src/js/weather.js"></script>
 </html>
