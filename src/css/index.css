@@ -23,6 +23,13 @@ p {
     font-weight: bold;
 }
 
+/* Remove the margin and the padding of the .row */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 h1{
 	color: #54b8ad;
