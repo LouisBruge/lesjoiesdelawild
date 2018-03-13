@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
- 
-   
+
+
   </head>
 
-  <body>
-  	   <audio controls autoplay>
+  <body  onload="loadWeather()">
+  	<!--
+  	<audio controls autoplay>
     	<source src="assets/sounds/lol.mp3" type="audio/mpeg">
-   
-    </audio>
+
+    </audio> -->
   	<div class="container-fluid">
 
   	<h1>L'ambiance à la Wild</h1>
@@ -57,9 +58,8 @@
 	</div>
 	<hr>
 	<section class="weather">
-		<p> Aujourd'hui, la température de Lille est de : </p>
-		<h3 id="temp"></h3>
-		<img id="Image" src="" alt="" />
+		<h2> Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span> <br> <h4>C'est ce que tu verrais si tu mettais le nez dehors</h4></h2>
+		<img class="img-responsive"id="Image" src="" alt="coucou" />
 	</section>
 	<hr>
 	<div class="row">
@@ -69,7 +69,7 @@
 		</div>
 		<div class="col-md-2">
 			<div class="outer">
-  				
+
 			</div>
 		</div>
 		<div class="col-md-5">
@@ -84,7 +84,7 @@
 		</div>
 		<div class="col-md-2">
 			<div class="outer">
-  				
+
 			</div>
 		</div>
 		<div class="col-md-5">
@@ -95,5 +95,6 @@
 
 	</body>
 <script src="../src/js/jquery-3.3.1.js"></script>
-<script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
+<script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="../src/js/weather.js"></script>
 </html>
