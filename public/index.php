@@ -14,15 +14,17 @@
 <!-- Bootstrap CSS files -->
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     
-<!-- Personal CSS -->
+    <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/header.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/footer.css"/>
     
-<!-- Font -->
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-<!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
