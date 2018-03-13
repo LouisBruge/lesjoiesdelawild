@@ -26,7 +26,7 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="http://via.placeholder.com/1500x500" alt="Image 2">
+				<img src="/public/assets/img/beatles.jpg" alt="theBeatles">
 				<div class="carousel-caption">
 					<h3>C'est à Lille qu'on apprend le mieux</h3>
 				</div>
