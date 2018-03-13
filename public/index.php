@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Meilleure Wild de France !</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
@@ -10,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../src/css/footer.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
    
+    <title>Meilleure Wild de France !</title>
   </head>
 
   <body>
@@ -53,6 +53,17 @@
 				<span class="sr-only">Next</span>
 			</a>
 	</div>
+    
+    <!-- Weather Section -->
+	<section id="weather">
+        <div class="container">
+            <div class="row">
+		        <h2> Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span> <br> <h4>C'est ce que tu verrais si tu mettais le nez dehors</h4></h2>
+		        <img class="img-responsive"id="Image" src="" alt="coucou" />
+            </div>
+        </div>
+	</section>
+
 	<div class="row">
 		<div class="col-md-5">
 			<img src="http://via.placeholder.com/140x140" class="img-responsive">
@@ -83,6 +94,7 @@
 			<img src="http://via.placeholder.com/140x140" class="img-responsive">
 		</div>
 	</div>
+
     <section id="link_to_top_5">
         <div class="container-fluid">
             <div class="row">
@@ -98,6 +110,6 @@
 
         <?php include('../src/html/footer.php') ?>
 	</body>
-<script src="../src/js/jquery-3.3.1.js"></script>
-<script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
+    <script src="../src/js/jquery-3.3.1.js"></script>
+    <script src="../src/js/bootstrap-3.3.7-dist/js/bootstrap.js"></script> 
 </html>
