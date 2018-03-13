@@ -9,6 +9,7 @@
  *  * Fonts family 
  *  * Fonts color 
  *  * Fonts weight
+ *  * .row padding and margin
  *
  *  ** .FIVES_RULES Sections properties **
  *  * background color
@@ -48,6 +49,13 @@ p {
 .bold {
     font-weight: bold;
 }
+
+/* Remove the margin and the padding of the .row */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 
 /**
  *  .FIVES_RULES Sections properties
