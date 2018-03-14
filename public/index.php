@@ -106,6 +106,7 @@
                 <p class="text-center">La promo lilloise studieuse...</p>
             </div>
 	    </div>
+    </div>
     </section>
     <!-- End of presentation of the Wild Code School Lille -->
 
