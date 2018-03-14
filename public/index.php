@@ -89,20 +89,20 @@
 	    <div class="row">
             <!-- Picture of Lille -->
             <div class="col-md-offset-1 col-md-4">
-                <img src="/public/assets/img/braderie-lille.jpg" alt="lille">
+                <img src="/public/assets/img/braderie-lille.jpg" alt="lille" class="img-responsive">
                 <p class="text-center">Bienvenue à Lille, ville synonyme de fêtes, de bonnes bières, de copieux "petits"
                     plats et de futurs développeurs en herbe.</p>
             </div>
             <!-- Picture of Euratechnologies -->
             <div class="col-md-offset-2 col-md-4">
-                <img src="/public/assets/img/euratechnologies.jpg" alt="euratechnologies">
+                <img src="/public/assets/img/euratechnologies.jpg" alt="euratechnologies" class="img-responsive">
                 <p class="text-center">Euratechnologies, QG de la Wild Code School de Lille et également repère fourmillant
                 de Pokémons. Un véritable attrape-geeks !</p>
             </div>
 	    </div>
 	    <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <img src="/public/assets/img/school.jpg" alt="promo-2018">
+                <img src="/public/assets/img/school.jpg" alt="promo-2018" class="img-responsive">
                 <p class="text-center">La promo lilloise studieuse...</p>
             </div>
 	    </div>
