@@ -9,7 +9,7 @@
         <meta name="keywords" content="First project">
  
         <!-- Title of the page -->
-        <title>Les cinq commandements! Pas 10 pas flemme...</title>
+        <title>L'ambiance Wild de Lille</title>
 
         <!-- Bootstrap library CSS v. 3.3.7 -->
         <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -55,7 +55,7 @@
                 <h1 class="text-center blue bold"> 5. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
-                <h2 class="blue bold">Dojo Time !</h2>
+                <h2 class="blue bold">Dojo Time</h2>
 
             </div>
         </div>
@@ -63,14 +63,14 @@
         <!-- Row for the image -->
         <div class="row">
             <div >
-                <p class="text-center"> Quand Gaëtan vient te chercher pour aller en Dojo !</p>
+                <p class="text-center"> Quand Gaëtan vient te chercher pour aller en Dojo</p>
                 <img src="/public/assets/img/dojo.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
 
         <div class="row">
             <div >
-                <p class="text-center"> Quand Louis résoud le dojo alors que t'as galéré pendant 57 minutes !</p>
+                <p class="text-center"> Quand Louis résoud le dojo alors que t'as galéré pendant 57 minutes</p>
                 <img src="/public/assets/img/Louis.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
@@ -96,14 +96,15 @@
         <!-- Row for the image -->
         <div class="row">
             <div >
-                <p class="text-center"> Quand tu attends ton tour pour le seul, le grand, l'unique, la clé de voute de la wild, le MICRO-ONDE !</p>
+                <p class="text-center"> Quand tu attends ton tour pour le seul, le grand, l'unique, la clé de voûte
+                    de la wild,<br> le MICRO-ONDE !</p>
                 <img src="/public/assets/img/wait.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
 
         <div class="row">
             <div >
-                <p class="text-center"> Quand tu as 3 vies et que tu fais du ping-pong champagne !</p>
+                <p class="text-center"> Quand tu as 3 vies et que tu fais du ping-pong champagne</p>
                 <img src="/public/assets/img/pingpong.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
@@ -122,21 +123,21 @@
                 <h1 class="text-center blue bold"> 3. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
-                <h2 class="blue bold" >Quest Time.</h2>
+                <h2 class="blue bold" >Quest Time</h2>
             </div>
         </div>
 
         <!-- Row for the image -->
         <div class="row">
             <div >
-                <p class="text-center"> Quand ton responsive fonctionne du feu de DIEU !</p>
+                <p class="text-center"> Quand ton responsive fonctionne du feu de DIEU</p>
                 <img src="/public/assets/img/responsive.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
 
         <div class="row">
             <div >
-                <p class="text-center"> Quand tu arrives à resoudre ton problème alors que ca fait 2h que tu en chies !</p>
+                <p class="text-center"> Quand tu arrives à résoudre ton problème alors que ça fait 2h que tu en chies</p>
                 <img src="/public/assets/img/celebration.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
@@ -155,22 +156,15 @@
                 <h1 class="text-center blue bold"> 2. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
-                <h2 class="blue bold" >WARNING ZONE.</h2>
+                <h2 class="blue bold" >WARNING ZONE</h2>
             </div>
         </div>
 
         <!-- Row for the image -->
         <div class="row">
             <div >
-                <p class="text-center"> Quand tu joues avec le feu ou ta vie clairement !</p>
+                <p class="text-center"> Quand tu joues avec le feu ou ta vie clairement</p>
                 <img src="/public/assets/img/magueule.jpg" alt="dojo" class="img-responsive center-block">
-            </div>
-        </div>
-
-        <div class="row">
-            <div >
-                <p class="text-center"> Quand tu arrives à resoudre ton problème alors que ca fait 2h que tu en chies !</p>
-                <img src="/public/assets/img/celebration.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -194,9 +188,16 @@
 
         <!-- Row for the image -->
         <div class="row">
+            <div class="row">
+                <div >
+                    <p class="text-center"> Quand ton équipe te laisse résoudre les conflits après 18 h...</p>
+                    <img src="/public/assets/img/alone.jpg" alt="raphael" class="img-responsive center-block">
+                </div>
+            </div>
+
             <div >
-                <p class="text-center"> Quand tu voles une idée à l'un des groupes pour le projet 1 !</p>
-                <img src="/public/assets/img/project.gif" alt="dojo" class="img-responsive center-block">
+                <p class="text-center"> Quand tu voles une idée à l'un des groupes pour le projet 1</p>
+                <img src="/public/assets/img/project.gif" alt="project" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -207,9 +208,10 @@
         <section id="linkToTheGoldenWild">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                    <p><b> Satisfait? tu en veux toujours plus? N'hésite pas à laisser un petit message sur notre Wild d'or pour nous le dire </b></p>
+                    <p><b>Conquis par l'ambiance de la Wild de Lille ? N'hésite pas à lire l'avis des anciens et à
+                            laisser ton code sur notre Wild d'or.</b></p>
                 </div>
-                <a class="btn btn-orange col-xs-offset-1 col-xs-10" href="/src/php/wild_or.php">Clique ici!</a>
+                <a class="btn btn-orange col-xs-offset-1 col-xs-10" href="/src/php/wild_or.php">C'est par ici !</a>
             </div>
         </section>
         <!-- End of the link to the Golden Wild -->
