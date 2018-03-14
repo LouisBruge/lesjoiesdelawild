@@ -2,7 +2,7 @@
 
 ## Description ##
 A showcase site for a [Wild Code School's project](https://wildcodeschool.fr/), using Html 5, CSS 3, Bootstrap 3.3.7, PHP 7 and JavaScript ES6.  
-A fictive project that combines the concept of the website [lesjoiesducode](https://lesjoiesducode.fr/) with the promo of lille Wild Code School.
+Make a funny website where we represente the atmosphere of Wild Code School of lille
 
 
 ## Contributors ##
