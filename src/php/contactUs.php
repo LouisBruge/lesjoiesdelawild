@@ -55,7 +55,7 @@ include 'post_contact.php'
                 <label for="lastname" class="col-ms-2 col-xs-3 control-label">Votre nom</label>
                 <div class="col-xs-8 col-ms-9">
                     <input type="text" name="lastname" id="lastname" maxlength="30"
-                           placeholder="<?php if(isset($_POST['lastname'])) echo "ex: Bond"; ?>"
+                           placeholder="<?php if(isset($_POST['lastname'])) echo "ex: Wild"; ?>"
                            value="<?php if(isset($_POST['lastname'])) echo $_POST['lastname']; ?>" class="form-control" />
                     <p><?php if(isset($errors['lastname'])) echo $errors['lastname']; ?></p>
                     <p><?php if(isset($errors['lastname2'])) echo $errors['lastname2']; ?></p>
@@ -66,7 +66,7 @@ include 'post_contact.php'
                 <label for="firstname" class="col-xs-3 col-ms-2 control-label">Votre prénom</label>
                 <div class="col-xs-8 col-ms-9">
                     <input type="text" name="firstname" id="firstname" maxlength="30"
-                           placeholder="<?php if(isset($_POST['firstname'])) echo "ex: James"; ?>"
+                           placeholder="<?php if(isset($_POST['firstname'])) echo "ex: Toto"; ?>"
                            value="<?php if(isset($_POST['firstname'])) echo $_POST['firstname']; ?>" class="form-control">
                     <p><?php if(isset($errors['firstname'])) echo $errors['firstname']; ?></p>
                     <p><?php if(isset($errors['firstname2'])) echo $errors['firstname2']; ?></p>
@@ -97,7 +97,7 @@ include 'post_contact.php'
             </div>
             <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2">
                 <textarea name="text" rows="5" class="form-control"
-                          placeholder="<?php if(isset($_POST['text'])) echo "Don't forget to put a message"; ?>"></textarea>
+                          placeholder="<?php if(isset($_POST['text'])) echo "N'oubliez pas de laisser un message"; ?>"></textarea>
                 <p><?php if(isset($errors['text'])) echo $errors['text']; ?></p>
             </div>
             <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2 text-center">
