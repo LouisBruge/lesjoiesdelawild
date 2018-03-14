@@ -21,9 +21,9 @@
                         <!-- End logo -->
                     <div class="collapse navbar-collapse" id="top-navbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/src/php/top_10.php">Top 5</a></li>
+                        <li><a href="/src/php/top_10.php">L'ambiance Wild de Lille</a></li>
                         <li><a href="/src/php/wild_or.php">Le Wild d'or</a></li>
-                        <li><a href="/src/php/top_10.php#contact_form">Contact</a></li>
+                        <li><a href="/src/php/contactUs.php">Wild Contact</a></li>
                     </ul>
                     </div>
                 </div>
