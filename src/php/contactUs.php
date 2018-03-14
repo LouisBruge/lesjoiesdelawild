@@ -98,17 +98,16 @@ if ($_POST) {
     <?php include('../html/header.php');?>
 
 
-		<!-- Form section -->
-		<section class="form" id="contact_form">
 
 
         <!--Section Contact Us-->
-    <section class="form" id="contact_form">
+    <section class="form" id="contactForm">
     <div class="container-fluid">
         <div class="row">
-            <h1 class="blue text-center">Contactez-nous</h1>
+            <h2 class="blue text-center">Contactez-nous</h2>
         </div>
 
+            <form method="post" action="#" class="form-horizontal">
             <!-- Name input -->
             <div class="form-group">
                 <label for="lastname" class="col-ms-2 col-xs-3 control-label">Votre nom</label>
