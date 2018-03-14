@@ -51,30 +51,6 @@
             <div class="col-lg-offset-1 col-lg-10 text-center" id="citations">
                 <h1>Le Wild d'or</h1>
 
-                <!--Customer Louis-->
-                <blockquote class="color">
-                    <p>Superbe formation, j'ai eu la chance de former 22 noobs et de réussir avec succès mon CAPES développeur web.</p>
-                    <small>by <cite>Louis</cite></small>
-                </blockquote>
-
-                <!--Customer Lucas-->
-                <blockquote class="color-text">
-                    <p>Lorem ipsum, bro ! Et merci à Toto, Tutu et Tata pour leurs précieux conseils.</p>
-                    <small>by <cite>Lucas</cite></small>
-                </blockquote>
-
-                <!--Customer Amandine-->
-                <blockquote class="color">
-                    <p>Énorme grâce à cette formation j'ai pu intégrer la maison Dior en tant que développeur PHP. "JS is a useless language" ! Merci Gaëtan.</p>
-                    <small>by <cite>Amandine</cite></small>
-                </blockquote>
-
-                <!--Customer Julien-->
-                <blockquote class="color-text">
-                    <p>Malgré une super ambiance j'ai quitté la wild après le projet 1, (conflit interne avec Ama....e) et j'ai ouvert un foodtruck à Byron Bay en Australie. See you there mates! PS : -10% pour les wilders.</p>
-                    <small>by <cite>Julien</cite></small>
-                </blockquote>
-                <br>
             </div>
         </div>
     </div>
