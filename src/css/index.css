@@ -9,7 +9,7 @@
 
 /* Font family for the body and the titles */
 body {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' sans-serif;
     font-size: 62.5%;
 	background-color: #F5F5F5;
 }
@@ -39,12 +39,8 @@ p {
 	padding-bottom: 0.5em;
 	padding-top: 1em;
 }
-/*
-#presentation {
-	margin: 0 auto;
-	padding-bottom: 0.5em;
-}*/
 
+/* Presentation of the Wild Code School Lille */
 #presentation img{
 	margin-bottom: -0.35em;
 	margin-top: 0.75em;
@@ -56,6 +52,7 @@ p {
 #presentation{
 	background-color: #FEFEFE;
 }
+
 h1{
 	color: #54b8ad;
 	text-align: center;
@@ -126,7 +123,7 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 
-/* Wanted men */
+/* 3 trainers */
 
 .thumbnail {
 	position: relative;

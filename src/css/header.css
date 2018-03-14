@@ -17,7 +17,6 @@ header nav.navbar.navbar-default {
 }
 /** End navbar **/
 
-
 /* Font */
 @font-face {
 	font-family: 'Montserrat', sans-serif;
@@ -36,12 +35,12 @@ header nav.navbar.navbar-default {
     font-size: 2.5em;
 }
 
-	/* Add info on h1 */
+/* Add info on h1 */
 .titre {
 	position: absolute;
 	transform: translate(20%, -40%);
 }
-	/** End add info on h1 **/
+/** End add info on h1 **/
 
 @media all and (max-width: 959px) and (min-width: 600px) {
     .navbar-default h1{

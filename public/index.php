@@ -8,12 +8,12 @@
     <meta name="description" content="First project Wild Code School">
     <meta name="keywords" content="First project">
     
-<!--Title of the page -->
+    <!--Title of the page -->
     <title>Bienvenue à Lille, futurs wilders !</title>
     
-<!-- Bootstrap CSS files -->
+    <!-- Bootstrap CSS files -->
     <link rel="stylesheet" href="../src/js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
-    
+
     <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="../src/css/header.css"/>
@@ -26,20 +26,16 @@
     <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon/favicon.ico">
     <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon/favicon.ico">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
- 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body onload="Weather()">
-
     <?php include('../src/html/header.php');?>
-
     <!-- Carousel section -->
   	<div class="container-fluid hidden-xs hidden-ms" id="carousel">
         <div id="slider" class="carousel slide" data-ride="carousel">
@@ -87,18 +83,18 @@
 	</section>
     <!-- End of the weather section -->
 
-    <!-- ? section -->
+    <!-- Presentation of the Wild Code School Lille -->
     <section id="presentation">
     <div class="container-fluid">
 	    <div class="row">
             <!-- Picture of Lille -->
-            <div class="col-md-4">
+            <div class="col-md-offset-1 col-md-4">
                 <img src="/public/assets/img/braderie-lille.jpg" alt="lille">
-                <p class="text-center">Bienvenue à Lille ! Ville synonyme de fêtes, de bonnes bières, de copieux "petits"
+                <p class="text-center">Bienvenue à Lille, ville synonyme de fêtes, de bonnes bières, de copieux "petits"
                     plats et de futurs développeurs en herbe.</p>
             </div>
             <!-- Picture of Euratechnologies -->
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-offset-2 col-md-4">
                 <img src="/public/assets/img/euratechnologies.jpg" alt="euratechnologies">
                 <p class="text-center">Euratechnologies, QG de la Wild Code School de Lille et également repère fourmillant
                 de Pokémons. Un véritable attrape-geeks !</p>
@@ -111,9 +107,9 @@
             </div>
 	    </div>
     </section>
-    <!-- End of the ? section -->
+    <!-- End of presentation of the Wild Code School Lille -->
 
-    <!-- Wanted men -->
+    <!-- 3 trainers -->
     <div class="container">
         <h2>La Wild de Lille c'est aussi : </h2>
         <div class="row">
@@ -172,8 +168,8 @@
     </section>
     <!-- End of the top 10 link section -->
 
-        <!-- Footer include by php -->
-        <?php include('../src/html/footer.php') ?>
+    <!-- Footer include by php -->
+    <?php include('../src/html/footer.php') ?>
 
     <!-- load the JQuery v. 3.3.1. Library -->
     <script src="../src/js/jquery-3.3.1.js"></script>

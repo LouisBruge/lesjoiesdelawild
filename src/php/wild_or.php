@@ -65,7 +65,7 @@
 
                 <!--Customer Amandine-->
                 <blockquote class="color">
-                    <p>Enorme grâce à cette formation j'ai pu intégrer la maison Dior en tant que développeur PHP. "JS is a useless language" ! Merci Gaëtan.</p>
+                    <p>Énorme grâce à cette formation j'ai pu intégrer la maison Dior en tant que développeur PHP. "JS is a useless language" ! Merci Gaëtan.</p>
                     <small>by <cite>Amandine</cite></small>
                 </blockquote>
 

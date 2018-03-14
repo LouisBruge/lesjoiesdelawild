@@ -10,11 +10,12 @@ footer .container-fluid {
     margin-left: 0px;
     font-size: 2em;
 }
-
+/* Font */
 @font-family {
 	font-style: 'Montserrat', sans-serif;
 }
 
+/* styling footer */
 footer .heart {
 	color: red;
 }
