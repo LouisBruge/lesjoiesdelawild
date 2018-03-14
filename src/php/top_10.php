@@ -44,53 +44,8 @@
     <!-- PHP navabar include -->
     <?php include('../html/header.php');?>
 
-    <!-- Fifth Order section -->
-        <section id="Fifth_order" class="fives_rules">
-            <div class="container-fluid">
-
-                <!-- Text's row -->
-                <div class="row">
-                    <div class="col-md-1 col-xs-1">
-                        <!-- Title -->
-                        <h1 class="text-center blue bold"> 5. </h1>
-                    </div>
-                    <div class="col-md-5 col-xs-11">
-                            <h2 class="blue bold">Dojo Time !</h2>
-
-                    </div>
-                </div>
-                    
-                <!-- Row for the image -->
-                <div class="row">
-                    <div >
-                        <p class="text-center"> Quand Gaëtan vient te chercher pour aller en Dojo !</p>
-                        <img src="/public/assets/img/dojo.gif" alt="dojo" class="img-responsive center-block">
-                    </div>
-                </div>
-
-
-    <!-- Bootstrap library CSS v. 3.3.7 -->
-    <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
-
-    <!-- Links to the top_10.css file -->
-    <link rel="stylesheet" media="all" type="text/css" href="../css/top_10.css">
-
-    <!-- Links to the header.css file for the navbar -->
-    <link rel="stylesheet" media="all" type="text/css" href="../css/header.css">
-
-    <!-- link to the footer.css -->
-    <link rel="stylesheet" media="all" type="text/css" href="../css/footer.css">
-
-    <!-- Link to the google fonts Montserrat -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-</head>
-<body>
-
-<!-- PHP navabar include -->
-<?php include('../html/header.php');?>
-
-<!-- Fifth Order section -->
-<section id="Fifth_order" class="fives_rules">
+<!-- Dojo time section -->
+<section id="dojoTime" class="categories">
     <div class="container-fluid">
 
         <!-- Text's row -->
@@ -121,9 +76,10 @@
         </div>
     </div>
 </section>
+<!-- End of the Dojo time -->
 
-<!-- Fourth Order section -->
-<section id="Fourth_order" class="fives_rules">
+<!-- Have a break have a section -->
+<section id="haveABreakHaveA" class="categories">
     <div class="container-fluid">
 
         <!-- Text's row -->
@@ -153,9 +109,10 @@
         </div>
     </div>
 </section>
+<!-- End of the have a break have a section -->
 
-<!-- Thrith Order section -->
-<section id="Third_order" class="fives_rules">
+<!-- Quest time section -->
+<section id="questTime" class="categories">
     <div class="container-fluid">
 
         <!-- Text's row -->
@@ -185,9 +142,10 @@
         </div>
     </div>
 </section>
+<!-- End of the section Quest time -->
 
-<!-- Second Order section -->
-<section id="Second_order" class="fives_rules">
+<!-- Warning zone section -->
+<section id="warningZone" class="categories">
     <div class="container-fluid">
 
         <!-- Text's row -->
@@ -217,9 +175,10 @@
         </div>
     </div>
 </section>
+<!-- End of the warning zone -->
 
-<!-- First Order section -->
-<section id="First_order" class="fives_rules">
+<!-- steal loving your wilders -->
+<section id="stealLovingYourWilder" class="categories">
     <div class="container-fluid">
 
         <!-- Text's row -->
@@ -242,6 +201,7 @@
         </div>
     </div>
 </section>
+<!-- End of the steal loving your wilders -->
 
         <!-- Link to the Golden wild -->
         <section id="linkToTheGoldenWild">
