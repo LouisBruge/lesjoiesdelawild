@@ -17,6 +17,7 @@
             <div class="col-md-4">
                 <ul>
                 <li><a href="https://wildcodeschool.fr/" target="_blank">Wild Code School</a></li>
+                    <li>© Un grand merci à Raphaël pour sa participation à notre collection de gifs</li>
                 </ul>
             </div>
             <!-- Third column -->

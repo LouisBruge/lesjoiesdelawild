@@ -39,25 +39,54 @@ p {
 	padding-bottom: 0.5em;
 	padding-top: 1em;
 }
+/*
+#presentation {
+	margin: 0 auto;
+	padding-bottom: 0.5em;
+}*/
 
+#presentation img{
+	margin-bottom: -0.35em;
+	margin-top: 0.75em;
+}
+
+#presentation p{
+	margin-bottom: 0.75em;
+}
+#presentation{
+	background-color: #FEFEFE;
+}
 h1{
 	color: #54b8ad;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
-
+#Top10Link .text-center{
+	font-size: 2em;
+}
 .row img{
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
+	margin-bottom: 3em;
+}
+
+.text-center {
+	font-size: 3em;
+	margin-top: 2em;
 }
 
 /* Weather */
 .weather img{
 	margin: 0 auto;
 	max-height: 300px;
-	max-width: 480px;}
+	max-width: 480px;
+}
+
+#weather{
+	margin-bottom: 5em;
+}
 
 .weather{
 	text-align: center;
@@ -73,6 +102,22 @@ h1{
 .carousel-inner img{
 	width: 100%;
 	overflow: hidden;
+	height: 100%;
+}
+
+.carousel-inner .grd{
+	margin-top: -25em;
+}
+
+#slippers{
+	margin-top: -15em;
+}
+
+.carousel-inner{
+	overflow: hidden;
+	max-height: 85vh;
+	margin-bottom: 10em;
+	width: 100%;
 }
 
 .carousel-caption{
@@ -81,13 +126,33 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 
-.outer {
-	margin: auto;
-	width: 0.05em;
-	height: 20em;
-	background-color: #f9a02e;
+/* Wanted men */
+
+.thumbnail {
 	position: relative;
-	border-radius: 20em;
+	background-color: #FEFEFE;
+	height: 85em;
+	padding-bottom: 0;
+	margin-top: 5em;
+}
+
+.portraitDescription {
+	background-color: #FEFEFE;
+	color: #54b8ad;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.containerPortrait h1 {
+	text-align: center;
+	color: #f9a02e;
+	font-size: 4em;
+	transition: font-size 0.5s;
+	transition: margin-top 0.5s;
 }
 
 /* Section top 10 link */
@@ -100,7 +165,6 @@ h1{
 
 #Top10Link .btn-orange a {
 }
-
 
 audio{
 	visibility: hidden;
