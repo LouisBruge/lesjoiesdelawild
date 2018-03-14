@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <title>mediaobject</title>
 
+<html lang="fr">
+    <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Louis Bruge, Lucas Poirier, Julien Lemaire et Amandine Claude">
+    <meta name="description" content="First project Wild Code School">
+    <meta name="keywords" content="First project">
+ 
+    <!-- Title of the page -->
+	<title>mediaobject</title>
 
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -17,8 +24,21 @@
     <!-- CSS file for the footer -->
     <link rel="stylesheet" href="../css/footer.css">
 
-    <!-- Link to the google fonts Montserrat -->
+    <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+      
+          <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
 </head>
 <body>
 <!-- PHP navbar include -->

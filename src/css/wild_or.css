@@ -13,6 +13,11 @@ p {
     font-size: 2em;
 }
 
+/* Remove the margin and the padding of the .row */
+.row {
+    margin: 0;
+    padding: 0;
+}
 
 /*Section guestbook*/
 

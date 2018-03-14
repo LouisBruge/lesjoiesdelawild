@@ -54,9 +54,74 @@ if ($_POST) {
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
-<head>
-    <title>Les cinq commandements! Pas 10 pas flemme...</title>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="author" content="Louis Bruge, Lucas Poirier, Julien Lemaire et Amandine Claude">
+        <meta name="description" content="First project Wild Code School">
+        <meta name="keywords" content="First project">
+ 
+        <!-- Title of the page -->
+        <title>Les cinq commandements! Pas 10 pas flemme...</title>
+
+        <!-- Bootstrap library CSS v. 3.3.7 -->
+        <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
+        
+        <!-- Links to the top_10.css file -->
+        <link rel="stylesheet" media="all" type="text/css" href="../css/top_10.css">
+        
+        <!-- Links to the header.css file for the navbar -->
+        <link rel="stylesheet" media="all" type="text/css" href="../css/header.css">
+
+        <!-- link to the footer.css -->
+        <link rel="stylesheet" media="all" type="text/css" href="../css/footer.css">
+
+        <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+        <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+    </head>
+    <body>
+
+    <!-- PHP navabar include -->
+    <?php include('../html/header.php');?>
+
+    <!-- Fifth Order section -->
+        <section id="Fifth_order" class="fives_rules">
+            <div class="container-fluid">
+
+                <!-- Text's row -->
+                <div class="row">
+                    <div class="col-md-1 col-xs-1">
+                        <!-- Title -->
+                        <h1 class="text-center blue bold"> 5. </h1>
+                    </div>
+                    <div class="col-md-5 col-xs-11">
+                            <h2 class="blue bold">Dojo Time !</h2>
+
+                    </div>
+                </div>
+                    
+                <!-- Row for the image -->
+                <div class="row">
+                    <div >
+                        <p class="text-center"> Quand Gaëtan vient te chercher pour aller en Dojo !</p>
+                        <img src="/public/assets/img/dojo.gif" alt="dojo" class="img-responsive center-block">
+                    </div>
+                </div>
+
 
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -280,6 +345,18 @@ if ($_POST) {
                 </div>
             </div>
 
+        <!-- Link to the Golden wild -->
+        <section id="linkToTheGoldenWild">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 text-center">
+                    <p><b> Satisfait? tu en veux toujours plus? N'hésite pas à laisser un petit message sur notre Wild d'or pour nous le dire </b></p>
+                </div>
+                <a class="btn btn-orange col-xs-offset-1 col-xs-10" href="/src/php/wild_or.php">Clique ici!</a>
+            </div>
+        </section>
+
+		<!-- Form section -->
+		<section class="form" id="contact_form">
 
             <div class="form-group">
                 <label for="question" class="col-ms-2 col-xs-3 control-label">Quel est votre objet ?</label>

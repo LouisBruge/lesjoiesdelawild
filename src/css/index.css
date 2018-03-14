@@ -23,6 +23,13 @@ p {
     font-weight: bold;
 }
 
+/* Remove the margin and the padding of the .row */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 h1{
 	color: #54b8ad;
@@ -35,6 +42,21 @@ h1{
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
+}
+
+.weather img{
+	margin: 0 auto;
+	max-height: 300px;
+	max-width: 480px;}
+
+.weather{
+	text-align: center;
+	font-size: 2.5em;
+	color: #f9a02e;
+}
+
+.weather h4{
+	color: #54b8ad;
 }
 
 .row p{
@@ -77,3 +99,6 @@ h1{
 }
 
 
+audio{
+	visibility: hidden;
+}
