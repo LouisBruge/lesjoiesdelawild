@@ -35,7 +35,10 @@ p {
 }
 
 h1 {
-	color: #54b8ad;
+	color: #f9a02e;
+    padding-bottom: 1.75em;
+    padding-top: 1em;
+    font-weight: bold;
 }
 
 
@@ -63,6 +66,13 @@ blockquote p::after, blockquote p::before {
 
 blockquote {
     font-size: 2em;
+    color:#35383a;
+}
+blockquote:nth-child(odd) {
+    background-color: #FEFEFE;
+}
+blockquote:nth-child(even) {
+    background-color: #F5F5F5;
 }
 
 cite {
