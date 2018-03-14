@@ -63,7 +63,7 @@ if ($_POST) {
         <meta name="keywords" content="First project">
  
         <!-- Title of the page -->
-        <title>Page de contact</title>
+        <title>Contact</title>
 
         <!-- Bootstrap library CSS v. 3.3.7 -->
         <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
