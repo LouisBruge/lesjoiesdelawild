@@ -45,7 +45,7 @@
 <?php include('../html/header.php'); ?>
 
 <!--Section wild d'or-->
-<section class="guestbook">
+<section class="guestBook">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-offset-1 col-lg-10 text-center" id="citations">
@@ -79,8 +79,9 @@
         </div>
     </div>
 </section>
+<!-- End of the Section wild d'or -->
 
-<section id="form_wild_book">
+<section id="formWildBook">
     <div class="container-fluid">
         <div class="row">
             <!-- Picture for the Guest boook -->

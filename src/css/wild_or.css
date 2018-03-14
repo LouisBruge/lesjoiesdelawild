@@ -1,6 +1,27 @@
+/** 
+ *
+ * CSS File for the Wild d'or
+ *
+ * ** Mains properties
+ * * body and p fonts properties
+ * * .row properties (margin and padding)
+ *
+ * ** guestBook section
+ * * background
+ * * blockquote
+ * * cite
+ *
+ * ** formWildBook section
+ * * label.label-control
+ * * section#formWildBook div.row
+ * * .btn-orange
+ *
+ **/
 
 /**
+ *
  *  MAINS PROPERTIES FOR FONTS
+ *
  **/
 
 /* Font family for the body and the titles */
@@ -13,15 +34,24 @@ p {
     font-size: 2em;
 }
 
+h1 {
+	color: #54b8ad;
+}
+
+
 /* Remove the margin and the padding of the .row */
 .row {
     margin: 0;
     padding: 0;
 }
 
-/*Section guestbook*/
+/**
+ *
+ * Section guestBook
+ *
+ **/
 
-.guestbook {
+.guestBook {
 	background-color: #f5f5f5;
 }
 
@@ -39,6 +69,22 @@ cite {
 	font-weight: bold;
 }
 
+/**
+ *
+ * Section formWildBook 
+ *
+ **/
+label.control-label {
+    font-size: 2em;
+    text-align: right;
+}
+
+section#formWildBook div.row {
+    margin-top: 15px; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .btn-orange {
     background-color: #f9a02e;
     margin-top : 2vh;
@@ -46,19 +92,3 @@ cite {
 }
 
 
-label.control-label {
-    font-size: 2em;
-    text-align: right;
-}
-
-h1 {
-	color: #54b8ad;
-}
-
-/* Section form_wild_book */
-
-section#form_wild_book div.row {
-    margin-top: 15px; 
-    margin-right: 0px;
-    margin-left: 0px;
-}
