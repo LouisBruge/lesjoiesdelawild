@@ -5,37 +5,37 @@ if ($_POST) {
     //Part Lastname
 
     if(empty($_POST["lastname"])) {
-        $errors['lastname'] = "lastname is required";
+        $errors['lastname'] = "<p>Champ obligatoire</p>";
     }
     if (strlen($_POST["lastname"]) < 2 || strlen($_POST["lastname"]) > 30) {
-        $errors['lastname2'] = "Lastname must be atleast between 3 and 30 characters long";
+        $errors['lastname2'] = "<p>Le prénom doit contenir entre 3 et 30 caractères</p>";
     }
 
     //Part Firstname
 
     if (empty($_POST["firstname"])) {
-        $errors['firstname'] = "<p>firstname is required<p>";
+        $errors['firstname'] = "<p>Champ obligatoire</p>";
     }
     if(strlen($_POST["firstname"]) < 2 || (strlen($_POST["firstname"])) > 30) {
-        $errors['firstname2'] = "<p>firstName must be at least 3 characters long<p>";
+        $errors['firstname2'] = "<p>Le prénom doit contenir entre 3 et 30 caractères</p>";
     }
 
     //Part email
 
     if (!preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#',$_POST['email'])) {
-        $errors['email'] = "<p>email is not valid</p>";
+        $errors['email'] = "<p>L'email n'est pas valide</p>";
     }
     if (strlen($_POST["email"]) < 4) {
-        $errors['email2'] = "<p>email must have at least 6 characters long</p>";
+        $errors['email2'] = "<p>L'email doit contenir au moins 6 caractères</p>";
     }
 
     //Part text
 
     if (empty($_POST["text"])) {
-        $errors['text'] = "<p>text is required</p>";
+        $errors['text'] = "<p>Champ obligatoire</p>";
     }
     if (strlen($_POST["text"]) > 100) {
-        $errors['text2'] = "<p>Your comment must have less 100 characters</p>";
+        $errors['text2'] = "<p>Le message doit contenir moins de 100 caractères</p>";
     }
 
     //Part Succes
