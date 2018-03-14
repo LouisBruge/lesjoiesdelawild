@@ -1,5 +1,10 @@
 /**
- *  MAINS PROPERTIES FOR FONTS
+ * INDEX CSS file
+ *
+ * - Main properties -
+ * - Weather Section -
+ * - Carousel -
+ * - Top 10 link - 
  **/
 
 /* Font family for the body and the titles */
@@ -29,7 +34,11 @@ p {
     padding: 0;
 }
 
-
+.row p{
+	margin: 0 auto;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+}
 
 h1{
 	color: #54b8ad;
@@ -44,6 +53,7 @@ h1{
 	padding-bottom: 0.5em;
 }
 
+/* Weather */
 .weather img{
 	margin: 0 auto;
 	max-height: 300px;
@@ -59,14 +69,7 @@ h1{
 	color: #54b8ad;
 }
 
-.row p{
-	margin: 0 auto;
-	padding-bottom: 0.5em;
-	padding-top: 1em;
-}
-
 /* Carrousel section */
-
 .carousel-inner img{
 	width: 100%;
 	overflow: hidden;
@@ -87,15 +90,15 @@ h1{
 	border-radius: 20em;
 }
 
-/* Section link_to_top_5 */
-#link_to_top_5 .btn-orange {
+/* Section top 10 link */
+#Top10Link .btn-orange {
     background-color: #f9a02e;
     margin-top : 2vh;
     margin-bottom : 2vh;
     color: #FEFEFE;
 }
 
-#link_to_top_5 .btn-orange a {
+#Top10Link .btn-orange a {
 }
 
 

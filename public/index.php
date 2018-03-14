@@ -37,8 +37,11 @@
   </head>
 
   <body onload="Weather()">
+
     <?php include('../src/html/header.php');?>
-  	<div class="container-fluid">
+
+    <!-- Carousel section -->
+  	<div class="container-fluid hidden-xs hidden-ms" id="carousel">
         <div id="slider" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -69,18 +72,28 @@
     </div>
 
 	</div>
+    <!-- End of the carousel section -->
     
     <!-- Weather Section -->
 	<section id="weather">
         <div class="container">
             <div class="row">
-		        <h2> Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span> <br> <h4>C'est ce que tu verrais si tu mettais le nez dehors</h4></h2>
-		        <img class="img-responsive"id="pictureOfLille" src="" alt="The town of Lille according the weather" />
+                <div class="col-md-6 col-xs-12">
+                    <h2 > Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span>
+                    <h3>C'est ce que tu verrais si tu mettais le nez dehors</h4></h3>
+                </div>
+                <div class="col-md-4 col-md-offset-1 hidden-xs">
+		            <img class="img-responsive" id="pictureOfLille" src="" alt="The town of Lille according the weather" />
+                </div>
             </div>
         </div>
 	</section>
+    <!-- End of the weather section -->
 
-	<div class="row">
+    <!-- ? section -->
+    </section>
+    <div class="container-fluid">
+	    <div class="row">
 		<div class="col-md-5">
 			<img src="/public/assets/img/slippers.jpg" alt="slippersMascott">
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
@@ -99,9 +112,13 @@
 			<p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat urna ac ullamcorper interdum. Sed mattis accumsan dolor, a cursus magna fermentum eu. Vestibulum vel tincidunt nisl, vitae</p>
 			<img src="/public/assets/img/alone.jpg" alt="alone">
 		</div>
+        </div>
 	</div>
+    </section>
+    <!-- End of the ? section -->
 
-    <section id="link_to_top_5">
+    <!-- top 10 link section -->
+    <section id="Top10Link">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -111,6 +128,8 @@
             </div>
         </div>
     </section>
+    <!-- End of the top 10 link section -->
+
         <!-- Footer include by php -->
         <?php include('../src/html/footer.php') ?>
 	</body>    
