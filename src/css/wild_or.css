@@ -1,0 +1,104 @@
+/** 
+ *
+ * CSS File for the Wild d'or
+ *
+ * ** Mains properties
+ * * body and p fonts properties
+ * * .row properties (margin and padding)
+ *
+ * ** guestBook section
+ * * background
+ * * blockquote
+ * * cite
+ *
+ * ** formWildBook section
+ * * label.label-control
+ * * section#formWildBook div.row
+ * * .btn-orange
+ *
+ **/
+
+/**
+ *
+ *  MAINS PROPERTIES FOR FONTS
+ *
+ **/
+
+/* Font family for the body and the titles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2em;
+}
+
+h1 {
+	color: #f9a02e;
+    padding-bottom: 1.75em;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+
+/* Remove the margin and the padding of the .row */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ *
+ * Section guestBook
+ *
+ **/
+
+.guestBook {
+	background-color: #f5f5f5;
+}
+
+blockquote p::after, blockquote p::before {
+  content : '"';
+  font-size: 20px; 
+  color: #f9a02e;
+}
+
+blockquote {
+    font-size: 2em;
+    color:#35383a;
+}
+blockquote:nth-child(odd) {
+    background-color: #FEFEFE;
+}
+blockquote:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+cite {
+	font-weight: bold;
+}
+
+/**
+ *
+ * Section formWildBook 
+ *
+ **/
+label.control-label {
+    font-size: 2em;
+    text-align: right;
+}
+
+section#formWildBook div.row {
+    margin-top: 15px; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn-orange {
+    background-color: #f9a02e;
+    margin-top : 2vh;
+    color: #FEFEFE;
+}
+
+
