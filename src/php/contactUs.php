@@ -1,56 +1,5 @@
 <?php
-if ($_POST) {
-    $errors = array();
-
-    //Part Lastname
-
-    if(empty($_POST["lastname"])) {
-        $errors['lastname'] = "lastname is required";
-    }
-    if(strlen($_POST["lastname"]) < 2 || strlen($_POST["lastname"]) > 30) {
-        $errors['lastname2'] = "Lastname must be atleast between 3 and 30 characters long";
-    }
-
-    //Part Firstname
-
-    if(empty($_POST["firstname"])) {
-        $errors['firstname'] = "<p>firstname is required<p>";
-    }
-    if(strlen($_POST["firstname"]) < 2 || (strlen($_POST["firstname"])) > 30) {
-        $errors['firsystname2'] = "<p>firstName must be at least 3 characters long<p>";
-    }
-
-    //Part email
-
-    if(!preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#',$_POST['email'])) {
-        $errors['email'] = "<p>email is not valid</p>";
-    }
-    if(strlen($_POST["email"]) < 4) {
-        $errors['email2'] = "<p>email must have at least 6 characters long</p>";
-    }
-
-    //Part text
-
-    if(empty($_POST["text"])) {
-        $errors['text'] = "text is required";
-    }
-    if(strlen($_POST["text"]) > 100) {
-        $errors['text2'] = "<p>Your comment must have less 100 characters</p>";
-    }
-
-    //Part Succes
-
-    $contenu = $_POST['lastname'] . " " . $_POST['firstname'] . " " . $_POST['email'] . " " .  $_POST['question'] . " " .  $_POST['text'];
-
-    if(count($errors) == 0){
-        echo "<center><h1>Successfull</h1></center>";
-        echo$_POST['lastname'] = " ";
-        echo$_POST['firstname'] = " ";
-        echo$_POST['email'] = " ";
-        echo$_POST['text'] = " ";
-        mail('julemaire01@gmail.com','Form Send' ,$contenu);
-    }
-}
+include 'post_contact.php'
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -107,7 +56,7 @@ if ($_POST) {
             <h2 class="blue text-center">Contactez-nous</h2>
         </div>
 
-            <form method="post" action="#" class="form-horizontal">
+            <form method="post" action="" class="form-horizontal">
             <!-- Name input -->
             <div class="form-group">
                 <label for="lastname" class="col-ms-2 col-xs-3 control-label">Votre nom</label>
@@ -160,13 +109,13 @@ if ($_POST) {
             </div>
 
             <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2">
-                <textarea name="text" rows="5" class="form-control" placeholder="<?php if(isset($_POST['text'])) echo "Don't forget to put a message"; ?>">
-                <?php if(isset($_POST['text'])) echo $_POST['text']; ?></textarea>
+                <textarea name="text" rows="5" class="form-control"
+                          placeholder="<?php if(isset($_POST['text'])) echo "Don't forget to put a message"; ?>"></textarea>
                 <p><?php if(isset($errors['text'])) echo $errors['text']; ?></p>
             </div>
 
             <div class="col-xs-offset-3 col-xs-8 col-ms-9 col-ms-offset-2 text-center">
-                <input type="submit" value="submit" class="form-control btn btn-orange btn-lg">
+                <input type="submit" value="Envoyer" class="form-control btn btn-orange btn-lg">
             </div>
         </form>
     </div>
