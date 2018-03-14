@@ -71,7 +71,6 @@
 	    </div>
     </div>
 
-	</div>
     <!-- End of the carousel section -->
     
     <!-- Weather Section -->
@@ -79,11 +78,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
-                    <h2 > Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span>
-                    <h3>C'est ce que tu verrais si tu mettais le nez dehors</h4></h3>
+                    <h2 > Aujourd'hui, la température de Lille est de : <span id="temp"></span><span> °C </span></h2>
+                    <h3>C'est ce que tu verrais si tu mettais le nez dehors</h3>
                 </div>
                 <div class="col-md-4 col-md-offset-1 hidden-xs">
-		            <img class="img-responsive" id="pictureOfLille" src="" alt="The town of Lille according the weather" />
+		            <img class="img-responsive" id="pictureOfLille" src="#" alt="The town of Lille according the weather" />
                 </div>
             </div>
         </div>
@@ -91,7 +90,7 @@
     <!-- End of the weather section -->
 
     <!-- ? section -->
-    </section>
+    <section>
     <div class="container-fluid">
 	    <div class="row">
 		<div class="col-md-5">
@@ -132,7 +131,7 @@
 
         <!-- Footer include by php -->
         <?php include('../src/html/footer.php') ?>
-	</body>    
+
     <!-- load the JQuery v. 3.3.1. Library -->
     <script src="../src/js/jquery-3.3.1.js"></script>
 
@@ -141,4 +140,5 @@
     
     <!-- load a personnal script in order to change the picture of Lille according the weather -->
     <script src="../src/js/weather.js"></script>
+	</body>    
 </html>
