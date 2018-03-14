@@ -24,13 +24,13 @@ let citations = []
 citations = JSON.stringify(citations)
 
 // Write the first comments
-let louisComment = new comment ('louis', 'Super formation, j\'ai eu la chance de former 22 noobs et de réussir avec succes mon CAPES développeur web!')
+let louisComment = new comment ('louis', 'Superbe formation, j\'ai eu la chance de former 22 noobs et de réussir avec succès mon CAPES développeur web!')
 
-let lucasComment = new comment ('Lucas', 'Lorem ipsum, bro! Et merci à Toto, Tutu et Tata pour leurs conseils précieux')
+let lucasComment = new comment ('Lucas', 'Lorem ipsum, bro ! Et merci à Toto, Tutu et Tata pour leurs précieux conseils')
 
-let amandineComment = new comment ('Amandine', 'Enorme grace à cette formation j\'ai pu intégrer la maison Dior en tant que developpeur PHP, " JS is a useless language" ! Merci Gaetan !')
+let amandineComment = new comment ('Amandine', 'Énorme grâce à cette formation j\'ai pu intégrer la maison Dior en tant que developpeur PHP. " JS is a useless language" ! Merci Gaëtan !')
 
-let julienComment = new comment ('Julien', 'Malgré une super ambiance j\'ai quitté la wild après le projet 1,(Conflit interne avec Ama....e) ! Et j\'ai ouvert un foodtruck à Byron bay en Australie. See you there mates. PS : -10% pour les wilders!')
+let julienComment = new comment ('Julien', 'Malgré une super ambiance j\'ai quitté la wild après le projet 1, (conflit interne avec Ama....e) et j\'ai ouvert un foodtruck à Byron Bay en Australie. See you there mates! PS : -10% pour les wilders.')
 
 // Insert the first comments inside the array citations
 citations = insertCommentToJSON(citations, louisComment)
