@@ -10,7 +10,7 @@
     <meta name="keywords" content="First project">
  
     <!-- Title of the page -->
-	<title>mediaobject</title>
+	<title>Wild d'or</title>
 
     <!-- Bootstrap library CSS v. 3.3.7 -->
     <link rel="stylesheet" media="all" type="text/css" href="../js/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -26,10 +26,10 @@
 
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-      
-          <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
-    <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon.ico">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/public/assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" type="image/x-icon" href="/public/assets/img/favicon/favicon.ico">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,26 +52,26 @@
                 <h1>Le Wild d'or</h1>
 
                 <!--Customer Louis-->
-                <blockquote>
-                    <p>Super formation, j'ai eu la chance de former 22 noobs et de réussir avec succes mon CAPES developpeur web !</p>
+                <blockquote class="color">
+                    <p>Superbe formation, j'ai eu la chance de former 22 noobs et de réussir avec succès mon CAPES développeur web.</p>
                     <small>by <cite>Louis</cite></small>
                 </blockquote>
 
                 <!--Customer Lucas-->
-                <blockquote>
-                    <p>Lorem ipsum, bro ! Et merci à Toto Tutu et Tata pour leurs conseils précieux!</p>
+                <blockquote class="color-text">
+                    <p>Lorem ipsum, bro ! Et merci à Toto, Tutu et Tata pour leurs précieux conseils.</p>
                     <small>by <cite>Lucas</cite></small>
                 </blockquote>
 
                 <!--Customer Amandine-->
-                <blockquote>
-                    <p>Enorme grace à cette formation j'ai pu intégrer la maison Dior en tant que developpeur PHP, " JS is a useless language" ! Merci Gaetan</p>
+                <blockquote class="color">
+                    <p>Énorme grâce à cette formation j'ai pu intégrer la maison Dior en tant que développeur PHP. "JS is a useless language" ! Merci Gaëtan.</p>
                     <small>by <cite>Amandine</cite></small>
                 </blockquote>
 
                 <!--Customer Julien-->
-                <blockquote>
-                    <p>Malgré une super ambiance j'ai quitté la wild après le projet 1,(Conflit interne avec Ama....e) ! Et j'ai ouvert un foodtruck à Byron bay en Australie. See you there mates. PS : -10% pour les wilders!</p>
+                <blockquote class="color-text">
+                    <p>Malgré une super ambiance j'ai quitté la wild après le projet 1, (conflit interne avec Ama....e) et j'ai ouvert un foodtruck à Byron Bay en Australie. See you there mates! PS : -10% pour les wilders.</p>
                     <small>by <cite>Julien</cite></small>
                 </blockquote>
                 <br>

@@ -6,16 +6,16 @@ footer .container-fluid {
     color: #FEFEFE;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 35px;
-
+    padding-bottom: 1em;
     margin-left: 0px;
     font-size: 2em;
 }
-
+/* Font */
 @font-family {
 	font-style: 'Montserrat', sans-serif;
 }
 
+/* styling footer */
 footer .heart {
 	color: red;
 }
@@ -26,6 +26,10 @@ footer li {
     padding: 0;
     font-style: 'Montserrat', sans-serif;
     color: #FEFEFE;
+}
+
+footer a {
+    color: #54b8ad;
 }
 
 .heart {

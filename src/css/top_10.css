@@ -29,12 +29,12 @@
 
 /* Font family for the body and the titles */
 body {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 62.5%;
 }
 
 p {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 /* Set font's color to blue for the titles and the links */
@@ -53,6 +53,11 @@ p {
     padding: 0;
 }
 
+.control-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #35383a;
+}
 
 /**
  *  .categories Sections properties
@@ -61,6 +66,18 @@ p {
 /* Set .categories background-color */
 .categories {
     background-color: #F5F5F5;
+}
+
+#dojoTime{
+    background-color: #FEFEFE;
+}
+
+#questTime{
+    background-color: #FEFEFE;
+}
+
+#stealLovingYourWilder{
+    background-color: #FEFEFE ;
 }
 
 /* Set the attribues font-size of the h1 tag */
@@ -95,7 +112,8 @@ p {
 /* Set the padding and margins auto to img inside the .categories section */
 .categories img.img-responsive {
     padding: 2vmin;
-    mmrgin: auto;
+    margin: auto;
+    margin-bottom: 7em;
 }
 
 /**
@@ -104,13 +122,15 @@ p {
  *
  **/
 #linkToTheGoldenWild p {
-    font-size: 4em;
+    font-size: 3em;
     padding-top: 2vmin;
 }
 
 .btn-orange {
     background-color: #f9a02e;
-    margin-top : 2vh;
-    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
     color: #FEFEFE;
 }
+
+
