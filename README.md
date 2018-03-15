@@ -46,4 +46,4 @@ php -S localhost:8000
     * **wireframes** : wireframes
     * README.md
 
-* 14/03/2018 - V0.3.0
+* 14/03/2018 - V1.0.0
