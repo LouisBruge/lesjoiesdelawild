@@ -70,7 +70,7 @@
 
         <div class="row">
             <div >
-                <p class="text-center"> Quand Louis résoud le dojo alors que t'as galéré pendant 57 minutes</p>
+                <p class="text-center"> Quand Louis résout le dojo alors que t'as galéré pendant 57 minutes</p>
                 <img src="/public/assets/img/Louis.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
@@ -97,7 +97,7 @@
         <div class="row">
             <div >
                 <p class="text-center"> Quand tu attends ton tour pour le seul, le grand, l'unique, la clé de voûte
-                    de la wild,<br> le MICRO-ONDE !</p>
+                    de la wild,<br> le MICRO-ONDES !</p>
                 <img src="/public/assets/img/wait.gif" alt="dojo" class="img-responsive center-block">
             </div>
         </div>
