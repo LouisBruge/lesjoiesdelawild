@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col-md-1 col-xs-1">
                 <!-- Title -->
-                <h1 class="text-center blue bold"> 5. </h1>
+                <h1 class="text-center blue bold"> 1. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
                 <h2 class="blue bold">Dojo Time</h2>
@@ -86,7 +86,7 @@
         <div class="row">
             <div class="col-md-1 col-xs-1">
                 <!-- Title -->
-                <h1 class="text-center blue bold"> 4. </h1>
+                <h1 class="text-center blue bold"> 2. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
                 <h2 class="blue bold">Have a break have a ... </h2>
@@ -153,7 +153,7 @@
         <div class="row">
             <div class="col-md-1 col-xs-1">
                 <!-- Title -->
-                <h1 class="text-center blue bold"> 2. </h1>
+                <h1 class="text-center blue bold"> 4. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
                 <h2 class="blue bold" >WARNING ZONE</h2>
@@ -179,7 +179,7 @@
         <div class="row">
             <div class="col-md-1 col-xs-1">
                 <!-- Title -->
-                <h1 class="text-center blue bold"> 1. </h1>
+                <h1 class="text-center blue bold"> 5. </h1>
             </div>
             <div class="col-md-5 col-xs-11">
                 <h2 class="blue bold">Steal loving you wilders !</h2>
